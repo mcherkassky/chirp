@@ -1,0 +1,62 @@
+extends layout
+block head
+	//- link(rel='stylesheet', href='/components/bootstrap-css/css/bootstrap.css')
+	link(rel='stylesheet', href='/stylesheets/map.css')
+	link(rel='stylesheet', href='/components/fullpage/jquery.fullPage.css')
+block script
+	script(src="components/socket.io-client/dist/socket.io.min.js")
+	script(type='text/javascript', src='/javascripts/map.js')
+
+	script(type='text/javascript', src='/components/fullpage/jquery.fullPage.min.js')
+	script(type="text/javascript", src="/components/fullpage/vendors/jquery.slimscroll.min.js")
+	script(type='text/javascript', src='/javascripts/scroll.js')
+	script(type='text/javascript', src='/components/chartjs/chart.min.js')
+	script(type='text/javascript', src='/javascripts/charts.js')
+
+block content
+	.main
+		.section
+			#map(style='text-align:center')
+		.section
+			.row
+				.col-md-4(style="text-align:center")
+					canvas(id="doughnut", width="210", height="250")
+					h3
+						| Increase Your
+						b  Engagement
+				.col-md-4(style="text-align:center")
+					canvas(id="bar",width="220",height="250")
+					h3
+						| Maximize Your
+						b  ROI
+				.col-md-4(style="text-align:center")
+					canvas(id="radar",width="250",height="250")
+					h3
+						| Optimize Your
+						b  Reach
+
+//- doctype 5
+//- html
+//-     head
+//-         title Node.js, Twitter Stream, Socket.io
+//-         link(rel='stylesheet', href='/stylesheets/style.css')
+//-         script(src="http://code.jquery.com/jquery-1.9.1.min.js")
+//-         script(src="components/socket.io-client/dist/socket.io.min.js")
+//-         script(src="/javascripts/script.js")
+//-     body
+//-         a(href="https://github.com/thedillonb/twitter-cashtag-heatmap")
+//-             img(style="position: absolute; top: 0; right: 0; border: 0;", src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png", alt="Fork me on GitHub")
+//-         .container
+//-             .header
+//-                 h1 Twitter Symbol Heatmap
+//-                 small 
+//-                     | This application uses Node.js to create a streaming connection between it and Twitter. 
+//-                     | Any mentions of the following symbols are received by the Node application and broadcasted
+//-                     | to any clients using Socket.io.
+//-                 small
+//-                     i
+//-                         | Last updated:
+//-                         span(id="last-update") Never
+//-             ul
+//-                 each val, key in data.symbols
+//-                     li(data-symbol="#{key}")= key
