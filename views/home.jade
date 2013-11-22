@@ -4,22 +4,23 @@ block head
 	link(rel='stylesheet', href='/stylesheets/nav.css')
 
 block script
-	script(type='text/javascript', src="components/caman/dist/caman.full.min.js")
+	script(src="javascripts/app/app.js")
+
 block content
-	.container(style="margin-top:100px")
+	.container(style="margin-top:100px", ng-app="app")
 		.row
 			.col-md-3
-				#sidebar
+				.sidebar
 					.bs-sidebar.hidden-print.affix(style="width:200px")
 						div(style="font-size:12px; font-weight:300; color:#b8c3c9")
 							| BROWSE
 						ul.nav.bs-sidenav
 							li.active
 								a(href="#")
-									| Heavy Rotation
+									| My Offers
 							li
 								a(href="#")
-									| Recent Activity
+									| Popular
 							li		
 								a(href="#")
 									| Top Charts
@@ -31,19 +32,76 @@ block content
 									| Stations
 
 			.col-md-9
-				div(style="font-size:17px")
-					| Heavy Rotation
-
 				ul.thumbnails(style="list-style:none;padding:0")
-					li
-						.thumbnail.clearfix(style="height:165px; overflow:hidden; padding:0;")
+					
+					li(ng-controller="CollapseCtrl")
+						.thumbnail.clearfix
+							div.caption
+								div
+									|Derrick Rose Adidas D Rose 4.0
+								div(style="font-size:16px")
+									|$$ | 21 days remaining
+								.actions.pull-right
+									a.action(ng-click="click()")
+										|claim
+									a.action
+										|watch
+									a.action
+										|like
 							img(src='http://img.youtube.com/vi/edPM-McUkn4/0.jpg', style="width:100%;position:relative;top:-150px")
-
+						div.claim-offer(ng-show="show_offer")
+							.well.well-large
+								.row
+									.col-md-1(style="text-align:center")
+										div(style="font-size:12px; font-weight:300; color:#b8c3c9")
+											| EARN
+										div(style="font-size:20px; font-weight:200; color: black")
+											| $20
+									.col-md-1(style="text-align:center")
+										div(style="font-size:12px; font-weight:300; color:#b8c3c9")
+											| CLICKS
+										div(style="font-size:20px; font-weight:200; color: black")
+											| 85
+									.col-md-1(style="text-align:center")
+										div(style="font-size:12px; width:60px; font-weight:300; color:#b8c3c9")
+											| PER CLICK
+										div(style="font-size:20px; font-weight:200; color: black")
+											| $0.75
+									.col-md-1
+									.col-md-6
+										div(style="font-size:16px; font-weight:300")
+											| Tweet the following link to start the fun: 
+											div(style="padding-left:40px; margin-top:5px")
+												| http://ow.ly/r6xqd
 					li(style="margin-top:14px")
-						.thumbnail.clearfix(style="height:165px; overflow:hidden; padding:0")
+						.thumbnail.clearfix
+							div.caption
+								div
+									|US National Team Promotion
+								div(style="font-size:16px")
+									|$$$$ | 3 days remaining
+								.actions.pull-right
+									a.action
+										|claim
+									a.action
+										|watch
+									a.action
+										|like
 							img(src='http://img.youtube.com/vi/qjDaW3VXjnw/0.jpg', style="width:100%;position:relative;top:-150px")
 
 					li(style="margin-top:14px")
-						.thumbnail.clearfix(style="height:165px; overflow:hidden; padding:0")
+						.thumbnail.clearfix
+							div.caption
+								div
+									|Beyonce Halo Music Video
+								div(style="font-size:16px")
+									|$ | 12 days remaining
+								.actions.pull-right
+									a.action
+										|claim
+									a.action
+										|watch
+									a.action
+										|like
 							img(src='http://img.youtube.com/vi/Ob7vObnFUJc/0.jpg', style="width:100%;position:relative;top:-150px")
 
