@@ -1,0 +1,1279 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'caman' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'caman', null ]
+6 verbose cache add name=undefined spec="caman" args=["caman",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'caman',
+7 verbose parsed url   path: 'caman',
+7 verbose parsed url   href: 'caman' }
+8 silly lockFile 28faa538-caman caman
+9 verbose lock caman /Users/mcherkassky/.npm/28faa538-caman.lock
+10 silly lockFile 28faa538-caman caman
+11 silly lockFile 28faa538-caman caman
+12 verbose addNamed [ 'caman', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 32dc527d-caman caman@
+15 verbose lock caman@ /Users/mcherkassky/.npm/32dc527d-caman.lock
+16 silly addNameRange { name: 'caman', range: '*', hasData: false }
+17 verbose url raw caman
+18 verbose url resolving [ 'https://registry.npmjs.org/', './caman' ]
+19 verbose url resolved https://registry.npmjs.org/caman
+20 info trying registry request attempt 1 at 18:05:40
+21 http GET https://registry.npmjs.org/caman
+22 http 200 https://registry.npmjs.org/caman
+23 silly registry.get cb [ 200,
+23 silly registry.get   { vary: 'Accept',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+23 silly registry.get     etag: '"7OYSSK8B5TZWPUXJDXEIK2XXX"',
+23 silly registry.get     date: 'Thu, 21 Nov 2013 23:05:41 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '72263' } ]
+24 silly addNameRange number 2 { name: 'caman', range: '*', hasData: true }
+25 silly addNameRange versions [ 'caman',
+25 silly addNameRange   [ '1.0.0',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.2.0',
+25 silly addNameRange     '1.2.1',
+25 silly addNameRange     '2.0.0',
+25 silly addNameRange     '3.1.0',
+25 silly addNameRange     '3.1.2',
+25 silly addNameRange     '3.2.0',
+25 silly addNameRange     '3.2.1',
+25 silly addNameRange     '3.3.0',
+25 silly addNameRange     '3.4.0',
+25 silly addNameRange     '4.0.0',
+25 silly addNameRange     '4.1.0',
+25 silly addNameRange     '4.1.1',
+25 silly addNameRange     '4.1.2' ] ]
+26 verbose addNamed [ 'caman', '4.1.2' ]
+27 verbose addNamed [ '4.1.2', '4.1.2' ]
+28 silly lockFile 99ae80b9-caman-4-1-2 caman@4.1.2
+29 verbose lock caman@4.1.2 /Users/mcherkassky/.npm/99ae80b9-caman-4-1-2.lock
+30 silly lockFile 0ba1a217--npmjs-org-caman-caman-4-1-2-tgz https://registry.npmjs.org/caman/-/caman-4.1.2.tgz
+31 verbose lock https://registry.npmjs.org/caman/-/caman-4.1.2.tgz /Users/mcherkassky/.npm/0ba1a217--npmjs-org-caman-caman-4-1-2-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/caman/-/caman-4.1.2.tgz',
+32 verbose addRemoteTarball   '68fb69dd62c6d89fe599d4f855193a0355c2d3c9' ]
+33 info retry fetch attempt 1 at 18:05:41
+34 verbose fetch to= /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/tmp.tgz
+35 http GET https://registry.npmjs.org/caman/-/caman-4.1.2.tgz
+36 http 200 https://registry.npmjs.org/caman/-/caman-4.1.2.tgz
+37 verbose tar unpack /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/tmp.tgz
+38 silly lockFile a93c7688-1711-0-05285554612055421-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+39 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package /Users/mcherkassky/.npm/a93c7688-1711-0-05285554612055421-package.lock
+40 silly lockFile 84839b6d-1711-0-05285554612055421-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/tmp.tgz
+41 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/tmp.tgz /Users/mcherkassky/.npm/84839b6d-1711-0-05285554612055421-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry script.js
+48 silly gunzTarPerm extractEntry karma.conf.js
+49 silly gunzTarPerm extractEntry .travis.yml
+50 silly gunzTarPerm extractEntry api/extra_list.html
+51 silly gunzTarPerm extractEntry api/LICENSE.html
+52 silly gunzTarPerm extractEntry api/assets/codo.js
+53 silly gunzTarPerm extractEntry api/assets/search_data.js
+54 silly gunzTarPerm extractEntry api/assets/codo.css
+55 silly gunzTarPerm extractEntry api/class_index.html
+56 silly gunzTarPerm extractEntry api/class_list.html
+57 silly gunzTarPerm extractEntry api/classes/Caman/IO.html
+58 silly gunzTarPerm extractEntry api/classes/Caman/Analyze.html
+59 silly gunzTarPerm extractEntry api/classes/Caman/Calculate.html
+60 silly gunzTarPerm extractEntry api/classes/Caman/Convert.html
+61 silly gunzTarPerm extractEntry api/classes/Caman/Event.html
+62 silly gunzTarPerm extractEntry api/classes/Caman/Filter.html
+63 silly gunzTarPerm extractEntry api/classes/Caman/Blender.html
+64 silly gunzTarPerm extractEntry api/classes/Caman/Layer.html
+65 silly gunzTarPerm extractEntry api/classes/Caman/Logger.html
+66 silly gunzTarPerm extractEntry api/classes/Caman/Pixel.html
+67 silly gunzTarPerm extractEntry api/classes/Caman/Plugin.html
+68 silly gunzTarPerm extractEntry api/classes/Caman/Renderer.html
+69 silly gunzTarPerm extractEntry api/classes/Caman/Store.html
+70 silly gunzTarPerm extractEntry api/classes/Caman.html
+71 silly gunzTarPerm extractEntry api/classes/CamanParser.html
+72 silly gunzTarPerm extractEntry api/classes/Module.html
+73 silly gunzTarPerm extractEntry api/classes/Util.html
+74 silly gunzTarPerm extractEntry api/README.md.html
+75 silly gunzTarPerm extractEntry api/file_list.html
+76 silly gunzTarPerm extractEntry api/files/core/filter.coffee.html
+77 silly gunzTarPerm extractEntry api/files/core/analyze.coffee.html
+78 silly gunzTarPerm extractEntry api/files/core/blender.coffee.html
+79 silly gunzTarPerm extractEntry api/files/core/calculate.coffee.html
+80 silly gunzTarPerm extractEntry api/files/core/caman.coffee.html
+81 silly gunzTarPerm extractEntry api/files/core/convert.coffee.html
+82 silly gunzTarPerm extractEntry api/files/core/event.coffee.html
+83 silly gunzTarPerm extractEntry api/files/core/autoload.coffee.html
+84 silly gunzTarPerm extractEntry api/files/core/io.coffee.html
+85 silly gunzTarPerm extractEntry api/files/core/layer.coffee.html
+86 silly gunzTarPerm extractEntry api/files/core/pixel.coffee.html
+87 silly gunzTarPerm extractEntry api/files/core/plugin.coffee.html
+88 silly gunzTarPerm extractEntry api/files/core/renderer.coffee.html
+89 silly gunzTarPerm extractEntry api/files/core/store.coffee.html
+90 silly gunzTarPerm extractEntry api/files/core/util.coffee.html
+91 silly gunzTarPerm extractEntry api/index.html
+92 silly gunzTarPerm extractEntry api/method_list.html
+93 silly gunzTarPerm extractEntry api/mixin_list.html
+94 silly gunzTarPerm extractEntry .gitmodules
+95 silly gunzTarPerm extractEntry dist/caman.full.js
+96 silly gunzTarPerm extractEntry dist/caman.full.min.js
+97 silly gunzTarPerm extractEntry dist/caman.full.pack.js
+98 silly gunzTarPerm extractEntry dist/caman.js
+99 silly gunzTarPerm extractEntry dist/caman.min.js
+100 silly gunzTarPerm extractEntry dist/caman.pack.js
+101 silly gunzTarPerm extractEntry dist/caman.coffee
+102 silly gunzTarPerm extractEntry dist/caman.full.coffee
+103 silly gunzTarPerm extractEntry dist/caman.full.map
+104 silly gunzTarPerm extractEntry dist/caman.map
+105 silly gunzTarPerm extractEntry Cakefile
+106 silly gunzTarPerm extractEntry libpeerconnection.log
+107 silly gunzTarPerm extractEntry output.jpg
+108 silly gunzTarPerm extractEntry .codoopts
+109 silly gunzTarPerm extractEntry proxies/caman_proxy.php
+110 silly gunzTarPerm extractEntry bower.json
+111 silly lockFile a93c7688-1711-0-05285554612055421-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+112 silly lockFile a93c7688-1711-0-05285554612055421-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+113 silly lockFile 84839b6d-1711-0-05285554612055421-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/tmp.tgz
+114 silly lockFile 84839b6d-1711-0-05285554612055421-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/tmp.tgz
+115 verbose tar pack [ '/Users/mcherkassky/.npm/caman/4.1.2/package.tgz',
+115 verbose tar pack   '/var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package' ]
+116 verbose tarball /Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+117 verbose folder /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+118 silly lockFile a93c7688-1711-0-05285554612055421-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+119 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package /Users/mcherkassky/.npm/a93c7688-1711-0-05285554612055421-package.lock
+120 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+121 verbose lock tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz /Users/mcherkassky/.npm/fcae92f9-ssky-npm-caman-4-1-2-package-tgz.lock
+122 silly lockFile a93c7688-1711-0-05285554612055421-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+123 silly lockFile a93c7688-1711-0-05285554612055421-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075141711-0.05285554612055421/package
+124 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+125 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+126 silly lockFile 8ff91211-erkassky-npm-caman-4-1-2-package /Users/mcherkassky/.npm/caman/4.1.2/package
+127 verbose lock /Users/mcherkassky/.npm/caman/4.1.2/package /Users/mcherkassky/.npm/8ff91211-erkassky-npm-caman-4-1-2-package.lock
+128 silly lockFile 8ff91211-erkassky-npm-caman-4-1-2-package /Users/mcherkassky/.npm/caman/4.1.2/package
+129 silly lockFile 8ff91211-erkassky-npm-caman-4-1-2-package /Users/mcherkassky/.npm/caman/4.1.2/package
+130 verbose tar unpack /Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+131 silly lockFile e586b3f7-erkassky-npm-caman-4-1-2-package tar:///Users/mcherkassky/.npm/caman/4.1.2/package
+132 verbose lock tar:///Users/mcherkassky/.npm/caman/4.1.2/package /Users/mcherkassky/.npm/e586b3f7-erkassky-npm-caman-4-1-2-package.lock
+133 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+134 verbose lock tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz /Users/mcherkassky/.npm/fcae92f9-ssky-npm-caman-4-1-2-package-tgz.lock
+135 silly gunzTarPerm modes [ '755', '644' ]
+136 silly gunzTarPerm extractEntry package.json
+137 silly gunzTarPerm extractEntry .npmignore
+138 silly gunzTarPerm extractEntry README.md
+139 silly gunzTarPerm extractEntry LICENSE
+140 silly gunzTarPerm extractEntry script.js
+141 silly gunzTarPerm extractEntry karma.conf.js
+142 silly gunzTarPerm extractEntry .travis.yml
+143 silly gunzTarPerm extractEntry api/extra_list.html
+144 silly gunzTarPerm extractEntry api/LICENSE.html
+145 silly gunzTarPerm extractEntry api/assets/codo.js
+146 silly gunzTarPerm extractEntry api/assets/search_data.js
+147 silly gunzTarPerm extractEntry api/assets/codo.css
+148 silly gunzTarPerm extractEntry api/class_index.html
+149 silly gunzTarPerm extractEntry api/class_list.html
+150 silly gunzTarPerm extractEntry api/classes/Caman/IO.html
+151 silly gunzTarPerm extractEntry api/classes/Caman/Analyze.html
+152 silly gunzTarPerm extractEntry api/classes/Caman/Calculate.html
+153 silly gunzTarPerm extractEntry api/classes/Caman/Convert.html
+154 silly gunzTarPerm extractEntry api/classes/Caman/Event.html
+155 silly gunzTarPerm extractEntry api/classes/Caman/Filter.html
+156 silly gunzTarPerm extractEntry api/classes/Caman/Blender.html
+157 silly gunzTarPerm extractEntry api/classes/Caman/Layer.html
+158 silly gunzTarPerm extractEntry api/classes/Caman/Logger.html
+159 silly gunzTarPerm extractEntry api/classes/Caman/Pixel.html
+160 silly gunzTarPerm extractEntry api/classes/Caman/Plugin.html
+161 silly gunzTarPerm extractEntry api/classes/Caman/Renderer.html
+162 silly gunzTarPerm extractEntry api/classes/Caman/Store.html
+163 silly gunzTarPerm extractEntry api/classes/Caman.html
+164 silly gunzTarPerm extractEntry api/classes/CamanParser.html
+165 silly gunzTarPerm extractEntry api/classes/Module.html
+166 silly gunzTarPerm extractEntry api/classes/Util.html
+167 silly gunzTarPerm extractEntry api/README.md.html
+168 silly gunzTarPerm extractEntry api/file_list.html
+169 silly gunzTarPerm extractEntry api/files/core/filter.coffee.html
+170 silly gunzTarPerm extractEntry api/files/core/analyze.coffee.html
+171 silly gunzTarPerm extractEntry api/files/core/blender.coffee.html
+172 silly gunzTarPerm extractEntry api/files/core/calculate.coffee.html
+173 silly gunzTarPerm extractEntry api/files/core/caman.coffee.html
+174 silly gunzTarPerm extractEntry api/files/core/convert.coffee.html
+175 silly gunzTarPerm extractEntry api/files/core/event.coffee.html
+176 silly gunzTarPerm extractEntry api/files/core/autoload.coffee.html
+177 silly gunzTarPerm extractEntry api/files/core/io.coffee.html
+178 silly gunzTarPerm extractEntry api/files/core/layer.coffee.html
+179 silly gunzTarPerm extractEntry api/files/core/pixel.coffee.html
+180 silly gunzTarPerm extractEntry api/files/core/plugin.coffee.html
+181 silly gunzTarPerm extractEntry api/files/core/renderer.coffee.html
+182 silly gunzTarPerm extractEntry api/files/core/store.coffee.html
+183 silly gunzTarPerm extractEntry api/files/core/util.coffee.html
+184 silly gunzTarPerm extractEntry api/index.html
+185 silly gunzTarPerm extractEntry api/method_list.html
+186 silly gunzTarPerm extractEntry api/mixin_list.html
+187 silly gunzTarPerm extractEntry .gitmodules
+188 silly gunzTarPerm extractEntry dist/caman.full.js
+189 silly gunzTarPerm extractEntry dist/caman.full.min.js
+190 silly gunzTarPerm extractEntry dist/caman.full.pack.js
+191 silly gunzTarPerm extractEntry dist/caman.js
+192 silly gunzTarPerm extractEntry dist/caman.min.js
+193 silly gunzTarPerm extractEntry dist/caman.pack.js
+194 silly gunzTarPerm extractEntry dist/caman.coffee
+195 silly gunzTarPerm extractEntry dist/caman.full.coffee
+196 silly gunzTarPerm extractEntry dist/caman.full.map
+197 silly gunzTarPerm extractEntry dist/caman.map
+198 silly gunzTarPerm extractEntry Cakefile
+199 silly gunzTarPerm extractEntry libpeerconnection.log
+200 silly gunzTarPerm extractEntry output.jpg
+201 silly gunzTarPerm extractEntry .codoopts
+202 silly gunzTarPerm extractEntry proxies/caman_proxy.php
+203 silly gunzTarPerm extractEntry bower.json
+204 silly lockFile e586b3f7-erkassky-npm-caman-4-1-2-package tar:///Users/mcherkassky/.npm/caman/4.1.2/package
+205 silly lockFile e586b3f7-erkassky-npm-caman-4-1-2-package tar:///Users/mcherkassky/.npm/caman/4.1.2/package
+206 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+207 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+208 verbose chmod /Users/mcherkassky/.npm/caman/4.1.2/package.tgz 644
+209 verbose chown /Users/mcherkassky/.npm/caman/4.1.2/package.tgz [ 501, 20 ]
+210 silly lockFile 0ba1a217--npmjs-org-caman-caman-4-1-2-tgz https://registry.npmjs.org/caman/-/caman-4.1.2.tgz
+211 silly lockFile 0ba1a217--npmjs-org-caman-caman-4-1-2-tgz https://registry.npmjs.org/caman/-/caman-4.1.2.tgz
+212 silly lockFile 99ae80b9-caman-4-1-2 caman@4.1.2
+213 silly lockFile 99ae80b9-caman-4-1-2 caman@4.1.2
+214 silly lockFile 32dc527d-caman caman@
+215 silly lockFile 32dc527d-caman caman@
+216 silly resolved [ { name: 'caman',
+216 silly resolved     version: '4.1.2',
+216 silly resolved     description: 'Javascript (Ca)nvas (Man)ipulation for NodeJS and the browser',
+216 silly resolved     keywords:
+216 silly resolved      [ 'canvas',
+216 silly resolved        'image',
+216 silly resolved        'manipulate',
+216 silly resolved        'filter',
+216 silly resolved        'image manipulation',
+216 silly resolved        'editing' ],
+216 silly resolved     homepage: 'http://camanjs.com',
+216 silly resolved     author:
+216 silly resolved      { name: 'Ryan LeFevre',
+216 silly resolved        email: 'meltingice8917@gmail.com',
+216 silly resolved        url: 'http://meltingice.net' },
+216 silly resolved     engines: { node: '>= 0.6.18' },
+216 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+216 silly resolved     main: './dist/caman.full.js',
+216 silly resolved     repository: { type: 'git', url: 'http://github.com/meltingice/CamanJS.git' },
+216 silly resolved     dependencies: { canvas: '*', fibers: '*' },
+216 silly resolved     devDependencies:
+216 silly resolved      { 'coffee-script': '>= 1.6.1',
+216 silly resolved        docco: '0.6.2',
+216 silly resolved        codo: '*',
+216 silly resolved        jsmin: '*',
+216 silly resolved        packer: '*',
+216 silly resolved        mocha: '*',
+216 silly resolved        chai: '*',
+216 silly resolved        servedir: '*',
+216 silly resolved        cli: '*',
+216 silly resolved        'cli-table': '*',
+216 silly resolved        karma: '*' },
+216 silly resolved     scripts:
+216 silly resolved      { test: './node_modules/mocha/bin/mocha --compilers coffee:coffee-script --reporter spec --globals Caman ./test/unit/*.coffee && ./node_modules/.bin/karma start --single-run',
+216 silly resolved        examples: './node_modules/servedir/bin/servedir',
+216 silly resolved        docs: 'codo',
+216 silly resolved        'docs-server': 'codo --server' },
+216 silly resolved     readme: '# About the Project\n\n[![Build Status](https://secure.travis-ci.org/meltingice/CamanJS.png)](http://travis-ci.org/meltingice/CamanJS)\n\nThe main focus of CamanJS is manipulating images using the HTML5 canvas and Javascript. It\'s a combination of a simple-to-use interface with advanced and efficient image/canvas editing techniques. It is also completely library independent and can be safely used next to jQuery, YUI, Scriptaculous, MooTools, etc.\n\nCamanJS is very easy to extend with new filters and plugins, and it comes with a wide array of image editing functionality, which is only growing as the community makes more plugins. All features that are not a part of the core CamanJS library are in a [separate plugins repository](https://github.com/meltingice/CamanJS-Plugins).\n\nFor more information, I highly recommend taking a look at the [official website](http://camanjs.com) where there is more comprehensive documentation and interactive demos. You can also [read the wiki](https://github.com/meltingice/CamanJS/wiki) for some basic information about the project and how to use it.\n\nCamanJS is written in [Coffeescript](http://coffeescript.org) as of version 3.0. **It works both in-browser and in NodeJS.**\n\n## Usage\n\nInclude one of the versions in the `dist/` folder, then you can run:\n\n```js\nCaman("#image-id", function () {\n  this.brightness(10);\n  this.contrast(20);\n  this.render(function () {\n    alert("Done!");\n  });\n});\n```\n\nCaman also supports modifying images via the `data-caman` HTML attribute. Simply separate each instruction with a space. Images with the `data-caman` attribute will automatically be modified at page load.\n\n```html\n<img data-caman="saturation(-10) brightness(20) vignette(\'10%\')" src="path/to/image.jpg">\n```\n\n### HiDPI Support\n\nVersion 4 introduces better support for HiDPI (Retina) displays. It allows you to specify a higher resolution replacement using HTML data attributes. Keep in mind, however, that higher resolution images take longer to render.\n\n**HTML data attributes**\n\n* `data-caman-hidpi`: URL to the high resolution replacement image\n* `data-caman-hidpi-disabled`: HiDPI support is enabled by default, so add this attribute if you wish to force disable it\n\n## Upgrading to Version 4\n\nThere is only 1 breaking change that occured with the version 4 release. When you initialize CamanJS with a canvas and an image, the parameter order has changed. It is now:\n\n``` javascript\nCaman("#canvas-id", "/path/to/image.png", function() {});\n```\n\nThis is in order to be more consistent with initialization, such that the "initialization object" is always the first parameter. Update your code accordingly.\n\n## Development\n\nIf you are a developer who is contributing directly to the project, there are some tools to help you out.\n\n### Building\n\nTo install all dependencies required for development, run `npm install -d`.\n\nBecause all plugins are in a separate repository, make sure you run:\n\n```\ngit submodule init && git submodule update\n```\n\nTo build, simply run `cake build`. The resulting files will be placed in the dist/ folder. Plugins will be automatically discovered and added to caman.full.js after the core library. You can also auto-compile when a file changes by using `cake watch`.\n\nIf you add any files to the core library, you will need to add them to the `coffeeFiles` array in the Cakefile. The point of this is so that order is preserved when generating the file JS file. Plugins do not need to be added to the Cakefile.\n\nYou will probably want to generate documentation if you make any changes. In addition to the normal requirements, you will also need the Python library Pygments.\n\nTo generate the documentation, run `cake docs`.\n\n## CDN JS Hosting\n\nCamanJS is hosted on CDN JS if you\'re looking for a CDN hosting solution. It is the full and minified version of the library, which means all plugins are included. Simply load CamanJS directly from [this URL](http://cdnjs.cloudflare.com/ajax/libs/camanjs/3.3.0/caman.full.min.js) for usage on your site.\n\n## NodeJS Compatibility\n\nCamanJS is fully compatible with NodeJS. The easiest way to install it is:\n\n```\nnpm install caman\n```\n\n**Saving from NodeJS**\n\nTo save your modified image in NodeJS, simply call the save() function **after** rendering is finished by passing a callback function to `render()`. Trying to save before rendering is finished will cause issues.\n\n``` javascript\nCaman = require(\'caman\').Caman;\n\nCaman("./path/to/file.jpg", function () {\n  this.brightness(40);\n  this.render(function () {\n    this.save("./output.png");\n  });\n});\n```\n\n## Testing\n\nTests for CamanJS run both in NodeJS and the browser.\n\n### NodeJS\n\nThe NodeJS tests use mocha as the test runner. The simplest way to run the test suite is by running `npm test`.\n\n### Browser\n\nThe browser tests are run by Karma. It will start up Chrome, Firefox, and Safari (if running OSX) in the background. You can minimize each of these browsers if desired. It will automatically run tests after CamanJS is recompiled by the Cakefile as well.\n\nYou can run Karma by running `karma start`, or you can do a single run with the NodeJS tests by running `npm test`.\n',
+216 silly resolved     readmeFilename: 'README.md',
+216 silly resolved     bugs: { url: 'https://github.com/meltingice/CamanJS/issues' },
+216 silly resolved     _id: 'caman@4.1.2',
+216 silly resolved     dist: { shasum: '68fb69dd62c6d89fe599d4f855193a0355c2d3c9' },
+216 silly resolved     _from: 'caman@',
+216 silly resolved     _resolved: 'https://registry.npmjs.org/caman/-/caman-4.1.2.tgz' } ]
+217 info install caman@4.1.2 into /Users/mcherkassky/Desktop/chirp
+218 info installOne caman@4.1.2
+219 info /Users/mcherkassky/Desktop/chirp/node_modules/caman unbuild
+220 verbose tar unpack /Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+221 silly lockFile 08007289-Desktop-chirp-node-modules-caman tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman
+222 verbose lock tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman /Users/mcherkassky/.npm/08007289-Desktop-chirp-node-modules-caman.lock
+223 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+224 verbose lock tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz /Users/mcherkassky/.npm/fcae92f9-ssky-npm-caman-4-1-2-package-tgz.lock
+225 silly gunzTarPerm modes [ '755', '644' ]
+226 silly gunzTarPerm extractEntry package.json
+227 silly gunzTarPerm extractEntry .npmignore
+228 silly gunzTarPerm extractEntry README.md
+229 silly gunzTarPerm extractEntry LICENSE
+230 silly gunzTarPerm extractEntry script.js
+231 silly gunzTarPerm extractEntry karma.conf.js
+232 silly gunzTarPerm extractEntry .travis.yml
+233 silly gunzTarPerm extractEntry api/extra_list.html
+234 silly gunzTarPerm extractEntry api/LICENSE.html
+235 silly gunzTarPerm extractEntry api/assets/codo.js
+236 silly gunzTarPerm extractEntry api/assets/search_data.js
+237 silly gunzTarPerm extractEntry api/assets/codo.css
+238 silly gunzTarPerm extractEntry api/class_index.html
+239 silly gunzTarPerm extractEntry api/class_list.html
+240 silly gunzTarPerm extractEntry api/classes/Caman/IO.html
+241 silly gunzTarPerm extractEntry api/classes/Caman/Analyze.html
+242 silly gunzTarPerm extractEntry api/classes/Caman/Calculate.html
+243 silly gunzTarPerm extractEntry api/classes/Caman/Convert.html
+244 silly gunzTarPerm extractEntry api/classes/Caman/Event.html
+245 silly gunzTarPerm extractEntry api/classes/Caman/Filter.html
+246 silly gunzTarPerm extractEntry api/classes/Caman/Blender.html
+247 silly gunzTarPerm extractEntry api/classes/Caman/Layer.html
+248 silly gunzTarPerm extractEntry api/classes/Caman/Logger.html
+249 silly gunzTarPerm extractEntry api/classes/Caman/Pixel.html
+250 silly gunzTarPerm extractEntry api/classes/Caman/Plugin.html
+251 silly gunzTarPerm extractEntry api/classes/Caman/Renderer.html
+252 silly gunzTarPerm extractEntry api/classes/Caman/Store.html
+253 silly gunzTarPerm extractEntry api/classes/Caman.html
+254 silly gunzTarPerm extractEntry api/classes/CamanParser.html
+255 silly gunzTarPerm extractEntry api/classes/Module.html
+256 silly gunzTarPerm extractEntry api/classes/Util.html
+257 silly gunzTarPerm extractEntry api/README.md.html
+258 silly gunzTarPerm extractEntry api/file_list.html
+259 silly gunzTarPerm extractEntry api/files/core/filter.coffee.html
+260 silly gunzTarPerm extractEntry api/files/core/analyze.coffee.html
+261 silly gunzTarPerm extractEntry api/files/core/blender.coffee.html
+262 silly gunzTarPerm extractEntry api/files/core/calculate.coffee.html
+263 silly gunzTarPerm extractEntry api/files/core/caman.coffee.html
+264 silly gunzTarPerm extractEntry api/files/core/convert.coffee.html
+265 silly gunzTarPerm extractEntry api/files/core/event.coffee.html
+266 silly gunzTarPerm extractEntry api/files/core/autoload.coffee.html
+267 silly gunzTarPerm extractEntry api/files/core/io.coffee.html
+268 silly gunzTarPerm extractEntry api/files/core/layer.coffee.html
+269 silly gunzTarPerm extractEntry api/files/core/pixel.coffee.html
+270 silly gunzTarPerm extractEntry api/files/core/plugin.coffee.html
+271 silly gunzTarPerm extractEntry api/files/core/renderer.coffee.html
+272 silly gunzTarPerm extractEntry api/files/core/store.coffee.html
+273 silly gunzTarPerm extractEntry api/files/core/util.coffee.html
+274 silly gunzTarPerm extractEntry api/index.html
+275 silly gunzTarPerm extractEntry api/method_list.html
+276 silly gunzTarPerm extractEntry api/mixin_list.html
+277 silly gunzTarPerm extractEntry .gitmodules
+278 silly gunzTarPerm extractEntry dist/caman.full.js
+279 silly gunzTarPerm extractEntry dist/caman.full.min.js
+280 silly gunzTarPerm extractEntry dist/caman.full.pack.js
+281 silly gunzTarPerm extractEntry dist/caman.js
+282 silly gunzTarPerm extractEntry dist/caman.min.js
+283 silly gunzTarPerm extractEntry dist/caman.pack.js
+284 silly gunzTarPerm extractEntry dist/caman.coffee
+285 silly gunzTarPerm extractEntry dist/caman.full.coffee
+286 silly gunzTarPerm extractEntry dist/caman.full.map
+287 silly gunzTarPerm extractEntry dist/caman.map
+288 silly gunzTarPerm extractEntry Cakefile
+289 silly gunzTarPerm extractEntry libpeerconnection.log
+290 silly gunzTarPerm extractEntry output.jpg
+291 silly gunzTarPerm extractEntry .codoopts
+292 silly gunzTarPerm extractEntry proxies/caman_proxy.php
+293 silly gunzTarPerm extractEntry bower.json
+294 silly lockFile 08007289-Desktop-chirp-node-modules-caman tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman
+295 silly lockFile 08007289-Desktop-chirp-node-modules-caman tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman
+296 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+297 silly lockFile fcae92f9-ssky-npm-caman-4-1-2-package-tgz tar:///Users/mcherkassky/.npm/caman/4.1.2/package.tgz
+298 info preinstall caman@4.1.2
+299 verbose readDependencies using package.json deps
+300 verbose readDependencies using package.json deps
+301 verbose cache add [ 'canvas@*', null ]
+302 verbose cache add name=undefined spec="canvas@*" args=["canvas@*",null]
+303 verbose parsed url { protocol: null,
+303 verbose parsed url   slashes: null,
+303 verbose parsed url   auth: null,
+303 verbose parsed url   host: null,
+303 verbose parsed url   port: null,
+303 verbose parsed url   hostname: null,
+303 verbose parsed url   hash: null,
+303 verbose parsed url   search: null,
+303 verbose parsed url   query: null,
+303 verbose parsed url   pathname: 'canvas@*',
+303 verbose parsed url   path: 'canvas@*',
+303 verbose parsed url   href: 'canvas@*' }
+304 verbose cache add name="canvas" spec="*" args=["canvas","*"]
+305 verbose parsed url { protocol: null,
+305 verbose parsed url   slashes: null,
+305 verbose parsed url   auth: null,
+305 verbose parsed url   host: null,
+305 verbose parsed url   port: null,
+305 verbose parsed url   hostname: null,
+305 verbose parsed url   hash: null,
+305 verbose parsed url   search: null,
+305 verbose parsed url   query: null,
+305 verbose parsed url   pathname: '*',
+305 verbose parsed url   path: '*',
+305 verbose parsed url   href: '*' }
+306 verbose addNamed [ 'canvas', '*' ]
+307 verbose addNamed [ null, '*' ]
+308 silly lockFile 5098a37a-canvas canvas@*
+309 verbose lock canvas@* /Users/mcherkassky/.npm/5098a37a-canvas.lock
+310 verbose cache add [ 'fibers@*', null ]
+311 verbose cache add name=undefined spec="fibers@*" args=["fibers@*",null]
+312 verbose parsed url { protocol: null,
+312 verbose parsed url   slashes: null,
+312 verbose parsed url   auth: null,
+312 verbose parsed url   host: null,
+312 verbose parsed url   port: null,
+312 verbose parsed url   hostname: null,
+312 verbose parsed url   hash: null,
+312 verbose parsed url   search: null,
+312 verbose parsed url   query: null,
+312 verbose parsed url   pathname: 'fibers@*',
+312 verbose parsed url   path: 'fibers@*',
+312 verbose parsed url   href: 'fibers@*' }
+313 verbose cache add name="fibers" spec="*" args=["fibers","*"]
+314 verbose parsed url { protocol: null,
+314 verbose parsed url   slashes: null,
+314 verbose parsed url   auth: null,
+314 verbose parsed url   host: null,
+314 verbose parsed url   port: null,
+314 verbose parsed url   hostname: null,
+314 verbose parsed url   hash: null,
+314 verbose parsed url   search: null,
+314 verbose parsed url   query: null,
+314 verbose parsed url   pathname: '*',
+314 verbose parsed url   path: '*',
+314 verbose parsed url   href: '*' }
+315 verbose addNamed [ 'fibers', '*' ]
+316 verbose addNamed [ null, '*' ]
+317 silly lockFile ca7e748b-fibers fibers@*
+318 verbose lock fibers@* /Users/mcherkassky/.npm/ca7e748b-fibers.lock
+319 silly addNameRange { name: 'canvas', range: '*', hasData: false }
+320 verbose url raw canvas
+321 verbose url resolving [ 'https://registry.npmjs.org/', './canvas' ]
+322 verbose url resolved https://registry.npmjs.org/canvas
+323 info trying registry request attempt 1 at 18:05:44
+324 http GET https://registry.npmjs.org/canvas
+325 silly addNameRange { name: 'fibers', range: '*', hasData: false }
+326 verbose url raw fibers
+327 verbose url resolving [ 'https://registry.npmjs.org/', './fibers' ]
+328 verbose url resolved https://registry.npmjs.org/fibers
+329 info trying registry request attempt 1 at 18:05:44
+330 http GET https://registry.npmjs.org/fibers
+331 http 200 https://registry.npmjs.org/canvas
+332 silly registry.get cb [ 200,
+332 silly registry.get   { vary: 'Accept',
+332 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+332 silly registry.get     etag: '"BKBJBYN5A0WYVVBE4H9IU2955"',
+332 silly registry.get     date: 'Thu, 21 Nov 2013 23:05:45 GMT',
+332 silly registry.get     'content-type': 'application/json',
+332 silly registry.get     'content-length': '204501' } ]
+333 http 200 https://registry.npmjs.org/fibers
+334 silly registry.get cb [ 200,
+334 silly registry.get   { vary: 'Accept',
+334 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+334 silly registry.get     etag: '"3EJ2JEPDWSCTBHONP4120HDC1"',
+334 silly registry.get     date: 'Thu, 21 Nov 2013 23:05:45 GMT',
+334 silly registry.get     'content-type': 'application/json',
+334 silly registry.get     'content-length': '140129' } ]
+335 silly addNameRange number 2 { name: 'canvas', range: '*', hasData: true }
+336 silly addNameRange versions [ 'canvas',
+336 silly addNameRange   [ '0.0.1',
+336 silly addNameRange     '0.0.2',
+336 silly addNameRange     '0.0.3',
+336 silly addNameRange     '0.0.4',
+336 silly addNameRange     '0.0.5',
+336 silly addNameRange     '0.0.6',
+336 silly addNameRange     '0.0.7',
+336 silly addNameRange     '0.0.8',
+336 silly addNameRange     '0.1.0',
+336 silly addNameRange     '0.2.0',
+336 silly addNameRange     '0.2.1',
+336 silly addNameRange     '0.3.0',
+336 silly addNameRange     '0.3.1',
+336 silly addNameRange     '0.3.2',
+336 silly addNameRange     '0.3.3',
+336 silly addNameRange     '0.4.0',
+336 silly addNameRange     '0.4.1',
+336 silly addNameRange     '0.4.2',
+336 silly addNameRange     '0.4.3',
+336 silly addNameRange     '0.5.0',
+336 silly addNameRange     '0.5.1',
+336 silly addNameRange     '0.5.2',
+336 silly addNameRange     '0.5.3',
+336 silly addNameRange     '0.5.4',
+336 silly addNameRange     '0.6.0',
+336 silly addNameRange     '0.7.0',
+336 silly addNameRange     '0.7.1',
+336 silly addNameRange     '0.7.2',
+336 silly addNameRange     '0.7.3',
+336 silly addNameRange     '0.8.0',
+336 silly addNameRange     '0.8.1',
+336 silly addNameRange     '0.8.2',
+336 silly addNameRange     '0.8.3',
+336 silly addNameRange     '0.9.0',
+336 silly addNameRange     '0.10.0',
+336 silly addNameRange     '0.10.1',
+336 silly addNameRange     '0.10.2',
+336 silly addNameRange     '0.10.3',
+336 silly addNameRange     '0.11.0',
+336 silly addNameRange     '0.11.1',
+336 silly addNameRange     '0.11.2',
+336 silly addNameRange     '0.11.3',
+336 silly addNameRange     '0.12.0',
+336 silly addNameRange     '0.12.1',
+336 silly addNameRange     '0.13.0',
+336 silly addNameRange     '0.13.1',
+336 silly addNameRange     '1.0.0',
+336 silly addNameRange     '1.0.1',
+336 silly addNameRange     '1.0.2',
+336 silly addNameRange     '1.0.3',
+336 silly addNameRange     '1.0.4',
+336 silly addNameRange     '1.1.0',
+336 silly addNameRange     '1.1.1',
+336 silly addNameRange     '1.1.2' ] ]
+337 verbose addNamed [ 'canvas', '1.1.2' ]
+338 verbose addNamed [ '1.1.2', '1.1.2' ]
+339 silly lockFile 476e28e2-canvas-1-1-2 canvas@1.1.2
+340 verbose lock canvas@1.1.2 /Users/mcherkassky/.npm/476e28e2-canvas-1-1-2.lock
+341 silly addNameRange number 2 { name: 'fibers', range: '*', hasData: true }
+342 silly addNameRange versions [ 'fibers',
+342 silly addNameRange   [ '0.1.0',
+342 silly addNameRange     '0.1.1',
+342 silly addNameRange     '0.1.2',
+342 silly addNameRange     '0.1.3',
+342 silly addNameRange     '0.1.4',
+342 silly addNameRange     '0.1.6',
+342 silly addNameRange     '0.1.7',
+342 silly addNameRange     '0.1.8',
+342 silly addNameRange     '0.2.0',
+342 silly addNameRange     '0.2.1',
+342 silly addNameRange     '0.2.2',
+342 silly addNameRange     '0.2.3',
+342 silly addNameRange     '0.2.4',
+342 silly addNameRange     '0.2.5',
+342 silly addNameRange     '0.2.6',
+342 silly addNameRange     '0.5.0',
+342 silly addNameRange     '0.6.0',
+342 silly addNameRange     '0.5.1',
+342 silly addNameRange     '0.6.1',
+342 silly addNameRange     '0.6.2',
+342 silly addNameRange     '0.6.3',
+342 silly addNameRange     '0.6.4',
+342 silly addNameRange     '0.6.5',
+342 silly addNameRange     '0.6.6',
+342 silly addNameRange     '0.6.7',
+342 silly addNameRange     '0.6.8',
+342 silly addNameRange     '0.6.9',
+342 silly addNameRange     '1.0.0',
+342 silly addNameRange     '1.0.1' ] ]
+343 verbose addNamed [ 'fibers', '1.0.1' ]
+344 verbose addNamed [ '1.0.1', '1.0.1' ]
+345 silly lockFile c99c8b50-fibers-1-0-1 fibers@1.0.1
+346 verbose lock fibers@1.0.1 /Users/mcherkassky/.npm/c99c8b50-fibers-1-0-1.lock
+347 silly lockFile 07d71f9b-pmjs-org-canvas-canvas-1-1-2-tgz https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz
+348 verbose lock https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz /Users/mcherkassky/.npm/07d71f9b-pmjs-org-canvas-canvas-1-1-2-tgz.lock
+349 silly lockFile 721752ce-pmjs-org-fibers-fibers-1-0-1-tgz https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz
+350 verbose lock https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz /Users/mcherkassky/.npm/721752ce-pmjs-org-fibers-fibers-1-0-1-tgz.lock
+351 verbose addRemoteTarball [ 'https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz',
+351 verbose addRemoteTarball   '59f19f4b998df3c921ff7f6b959d2b3d6518f144' ]
+352 verbose addRemoteTarball [ 'https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz',
+352 verbose addRemoteTarball   '6c4cb3b3815176fc4aad821df67442d8185d7a66' ]
+353 info retry fetch attempt 1 at 18:05:45
+354 verbose fetch to= /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/tmp.tgz
+355 info retry fetch attempt 1 at 18:05:45
+356 verbose fetch to= /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/tmp.tgz
+357 http GET https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz
+358 http GET https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz
+359 http 200 https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz
+360 http 200 https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz
+361 verbose tar unpack /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/tmp.tgz
+362 silly lockFile dc576734-5450-0-22407878492958844-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+363 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package /Users/mcherkassky/.npm/dc576734-5450-0-22407878492958844-package.lock
+364 silly lockFile f85be06f-5450-0-22407878492958844-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/tmp.tgz
+365 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/tmp.tgz /Users/mcherkassky/.npm/f85be06f-5450-0-22407878492958844-tmp-tgz.lock
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry .npmignore
+369 silly gunzTarPerm extractEntry index.js
+370 silly gunzTarPerm extractEntry binding.gyp
+371 silly gunzTarPerm extractEntry Makefile
+372 silly gunzTarPerm extractEntry Readme.md
+373 silly gunzTarPerm extractEntry .gitmodules
+374 silly gunzTarPerm extractEntry .travis.yml
+375 silly gunzTarPerm extractEntry install
+376 silly gunzTarPerm extractEntry lib/bindings.js
+377 silly gunzTarPerm extractEntry lib/canvas.js
+378 silly gunzTarPerm extractEntry lib/context2d.js
+379 silly gunzTarPerm extractEntry lib/image.js
+380 silly gunzTarPerm extractEntry lib/jpegstream.js
+381 silly gunzTarPerm extractEntry lib/pixelarray.js
+382 silly gunzTarPerm extractEntry lib/pngstream.js
+383 silly gunzTarPerm extractEntry History.md
+384 silly gunzTarPerm extractEntry src/Image.h
+385 silly gunzTarPerm extractEntry src/Canvas.cc
+386 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+387 silly gunzTarPerm extractEntry src/CanvasGradient.h
+388 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+389 silly gunzTarPerm extractEntry src/CanvasPattern.h
+390 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+391 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+392 silly gunzTarPerm extractEntry src/FontFace.cc
+393 silly gunzTarPerm extractEntry src/FontFace.h
+394 silly gunzTarPerm extractEntry src/Image.cc
+395 silly gunzTarPerm extractEntry src/Canvas.h
+396 silly gunzTarPerm extractEntry src/ImageData.cc
+397 silly gunzTarPerm extractEntry src/ImageData.h
+398 silly gunzTarPerm extractEntry src/JPEGStream.h
+399 silly gunzTarPerm extractEntry src/PNG.h
+400 silly gunzTarPerm extractEntry src/PixelArray.cc
+401 silly gunzTarPerm extractEntry src/PixelArray.h
+402 silly gunzTarPerm extractEntry src/Point.h
+403 silly gunzTarPerm extractEntry src/closure.h
+404 silly gunzTarPerm extractEntry src/color.cc
+405 silly gunzTarPerm extractEntry src/color.h
+406 silly gunzTarPerm extractEntry src/init.cc
+407 silly gunzTarPerm extractEntry util/cairo_include.sh
+408 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+409 silly gunzTarPerm extractEntry util/has_lib.sh
+410 silly gunzTarPerm extractEntry util/lib_lookup.sh
+411 silly lockFile dc576734-5450-0-22407878492958844-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+412 silly lockFile dc576734-5450-0-22407878492958844-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+413 silly lockFile f85be06f-5450-0-22407878492958844-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/tmp.tgz
+414 silly lockFile f85be06f-5450-0-22407878492958844-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/tmp.tgz
+415 verbose tar pack [ '/Users/mcherkassky/.npm/canvas/1.1.2/package.tgz',
+415 verbose tar pack   '/var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package' ]
+416 verbose tarball /Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+417 verbose folder /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+418 silly lockFile dc576734-5450-0-22407878492958844-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+419 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package /Users/mcherkassky/.npm/dc576734-5450-0-22407878492958844-package.lock
+420 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+421 verbose lock tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz /Users/mcherkassky/.npm/b809383f-sky-npm-canvas-1-1-2-package-tgz.lock
+422 silly lockFile dc576734-5450-0-22407878492958844-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+423 silly lockFile dc576734-5450-0-22407878492958844-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145450-0.22407878492958844/package
+424 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+425 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+426 silly lockFile e793d4ed-rkassky-npm-canvas-1-1-2-package /Users/mcherkassky/.npm/canvas/1.1.2/package
+427 verbose lock /Users/mcherkassky/.npm/canvas/1.1.2/package /Users/mcherkassky/.npm/e793d4ed-rkassky-npm-canvas-1-1-2-package.lock
+428 silly lockFile e793d4ed-rkassky-npm-canvas-1-1-2-package /Users/mcherkassky/.npm/canvas/1.1.2/package
+429 silly lockFile e793d4ed-rkassky-npm-canvas-1-1-2-package /Users/mcherkassky/.npm/canvas/1.1.2/package
+430 verbose tar unpack /Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+431 silly lockFile 0c74e64c-rkassky-npm-canvas-1-1-2-package tar:///Users/mcherkassky/.npm/canvas/1.1.2/package
+432 verbose lock tar:///Users/mcherkassky/.npm/canvas/1.1.2/package /Users/mcherkassky/.npm/0c74e64c-rkassky-npm-canvas-1-1-2-package.lock
+433 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+434 verbose lock tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz /Users/mcherkassky/.npm/b809383f-sky-npm-canvas-1-1-2-package-tgz.lock
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 silly gunzTarPerm extractEntry package.json
+437 silly gunzTarPerm extractEntry .npmignore
+438 silly gunzTarPerm extractEntry index.js
+439 silly gunzTarPerm extractEntry binding.gyp
+440 silly gunzTarPerm extractEntry Makefile
+441 silly gunzTarPerm extractEntry Readme.md
+442 silly gunzTarPerm extractEntry .gitmodules
+443 silly gunzTarPerm extractEntry .travis.yml
+444 silly gunzTarPerm extractEntry install
+445 silly gunzTarPerm extractEntry lib/bindings.js
+446 silly gunzTarPerm extractEntry lib/canvas.js
+447 silly gunzTarPerm extractEntry lib/context2d.js
+448 silly gunzTarPerm extractEntry lib/image.js
+449 silly gunzTarPerm extractEntry lib/jpegstream.js
+450 silly gunzTarPerm extractEntry lib/pixelarray.js
+451 silly gunzTarPerm extractEntry lib/pngstream.js
+452 silly gunzTarPerm extractEntry History.md
+453 silly gunzTarPerm extractEntry src/Image.h
+454 silly gunzTarPerm extractEntry src/Canvas.cc
+455 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+456 silly gunzTarPerm extractEntry src/CanvasGradient.h
+457 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+458 silly gunzTarPerm extractEntry src/CanvasPattern.h
+459 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+460 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+461 silly gunzTarPerm extractEntry src/FontFace.cc
+462 silly gunzTarPerm extractEntry src/FontFace.h
+463 silly gunzTarPerm extractEntry src/Image.cc
+464 silly gunzTarPerm extractEntry src/Canvas.h
+465 silly gunzTarPerm extractEntry src/ImageData.cc
+466 silly gunzTarPerm extractEntry src/ImageData.h
+467 silly gunzTarPerm extractEntry src/JPEGStream.h
+468 silly gunzTarPerm extractEntry src/PNG.h
+469 silly gunzTarPerm extractEntry src/PixelArray.cc
+470 silly gunzTarPerm extractEntry src/PixelArray.h
+471 silly gunzTarPerm extractEntry src/Point.h
+472 silly gunzTarPerm extractEntry src/closure.h
+473 silly gunzTarPerm extractEntry src/color.cc
+474 silly gunzTarPerm extractEntry src/color.h
+475 silly gunzTarPerm extractEntry src/init.cc
+476 silly gunzTarPerm extractEntry util/cairo_include.sh
+477 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+478 silly gunzTarPerm extractEntry util/has_lib.sh
+479 silly gunzTarPerm extractEntry util/lib_lookup.sh
+480 silly lockFile 0c74e64c-rkassky-npm-canvas-1-1-2-package tar:///Users/mcherkassky/.npm/canvas/1.1.2/package
+481 silly lockFile 0c74e64c-rkassky-npm-canvas-1-1-2-package tar:///Users/mcherkassky/.npm/canvas/1.1.2/package
+482 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+483 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+484 verbose chmod /Users/mcherkassky/.npm/canvas/1.1.2/package.tgz 644
+485 verbose chown /Users/mcherkassky/.npm/canvas/1.1.2/package.tgz [ 501, 20 ]
+486 silly lockFile 07d71f9b-pmjs-org-canvas-canvas-1-1-2-tgz https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz
+487 silly lockFile 07d71f9b-pmjs-org-canvas-canvas-1-1-2-tgz https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz
+488 silly lockFile 476e28e2-canvas-1-1-2 canvas@1.1.2
+489 silly lockFile 476e28e2-canvas-1-1-2 canvas@1.1.2
+490 silly lockFile 5098a37a-canvas canvas@*
+491 silly lockFile 5098a37a-canvas canvas@*
+492 verbose tar unpack /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/tmp.tgz
+493 silly lockFile a036bd20-145451-0-674853895790875-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+494 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package /Users/mcherkassky/.npm/a036bd20-145451-0-674853895790875-package.lock
+495 silly lockFile efb8d663-145451-0-674853895790875-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/tmp.tgz
+496 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/tmp.tgz /Users/mcherkassky/.npm/efb8d663-145451-0-674853895790875-tmp-tgz.lock
+497 silly gunzTarPerm modes [ '755', '644' ]
+498 silly gunzTarPerm extractEntry package.json
+499 silly gunzTarPerm extractEntry .npmignore
+500 silly gunzTarPerm extractEntry README.md
+501 silly gunzTarPerm extractEntry LICENSE
+502 silly gunzTarPerm extractEntry fibers.js
+503 silly gunzTarPerm extractEntry future.js
+504 silly gunzTarPerm extractEntry build.js
+505 silly gunzTarPerm extractEntry quick-test.js
+506 silly gunzTarPerm extractEntry test.js
+507 silly gunzTarPerm extractEntry bin/.npmignore
+508 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.6/fibers.node
+509 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.6/fibers.node
+510 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.11/fibers.node
+511 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.6/fibers.node
+512 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.11/fibers.node
+513 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.14/fibers.node
+514 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.6/fibers.node
+515 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.11/fibers.node
+516 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.14/fibers.node
+517 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.6/fibers.node
+518 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.11/fibers.node
+519 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.14/fibers.node
+520 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.6/fibers.node
+521 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.11/fibers.node
+522 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.14/fibers.node
+523 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.11/fibers.node
+524 silly gunzTarPerm extractEntry binding.gyp
+525 silly gunzTarPerm extractEntry src/coroutine.cc
+526 silly gunzTarPerm extractEntry src/coroutine.h
+527 silly gunzTarPerm extractEntry src/fibers.cc
+528 silly gunzTarPerm extractEntry src/libcoro/README
+529 silly gunzTarPerm extractEntry src/libcoro/LICENSE
+530 silly gunzTarPerm extractEntry src/libcoro/conftest.c
+531 silly gunzTarPerm extractEntry src/libcoro/coro.c
+532 silly gunzTarPerm extractEntry src/libcoro/coro.h
+533 silly gunzTarPerm extractEntry test/already-running.js
+534 silly gunzTarPerm extractEntry test/exit.js
+535 silly gunzTarPerm extractEntry test/fibonacci.js
+536 silly gunzTarPerm extractEntry test/finish-multiple.js
+537 silly gunzTarPerm extractEntry test/exec.js
+538 silly gunzTarPerm extractEntry test/future.js
+539 silly gunzTarPerm extractEntry test/illegal-yield.js
+540 silly gunzTarPerm extractEntry test/pool.js
+541 silly gunzTarPerm extractEntry test/process-title.js
+542 silly gunzTarPerm extractEntry test/stack-overflow.js
+543 silly gunzTarPerm extractEntry test/current.js
+544 silly gunzTarPerm extractEntry test/stack-overflow2.js
+545 silly gunzTarPerm extractEntry test/child-process.js
+546 silly gunzTarPerm extractEntry test/started.js
+547 silly gunzTarPerm extractEntry test/bad-context.js
+548 silly gunzTarPerm extractEntry test/unwind.js
+549 silly gunzTarPerm extractEntry test/future-exception.js
+550 silly lockFile a036bd20-145451-0-674853895790875-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+551 silly lockFile a036bd20-145451-0-674853895790875-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+552 silly lockFile efb8d663-145451-0-674853895790875-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/tmp.tgz
+553 silly lockFile efb8d663-145451-0-674853895790875-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/tmp.tgz
+554 verbose tar pack [ '/Users/mcherkassky/.npm/fibers/1.0.1/package.tgz',
+554 verbose tar pack   '/var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package' ]
+555 verbose tarball /Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+556 verbose folder /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+557 silly lockFile a036bd20-145451-0-674853895790875-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+558 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package /Users/mcherkassky/.npm/a036bd20-145451-0-674853895790875-package.lock
+559 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+560 verbose lock tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz /Users/mcherkassky/.npm/dd679ced-sky-npm-fibers-1-0-1-package-tgz.lock
+561 silly lockFile a036bd20-145451-0-674853895790875-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+562 silly lockFile a036bd20-145451-0-674853895790875-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075145451-0.674853895790875/package
+563 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+564 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+565 silly lockFile 396135a0-rkassky-npm-fibers-1-0-1-package /Users/mcherkassky/.npm/fibers/1.0.1/package
+566 verbose lock /Users/mcherkassky/.npm/fibers/1.0.1/package /Users/mcherkassky/.npm/396135a0-rkassky-npm-fibers-1-0-1-package.lock
+567 silly lockFile 396135a0-rkassky-npm-fibers-1-0-1-package /Users/mcherkassky/.npm/fibers/1.0.1/package
+568 silly lockFile 396135a0-rkassky-npm-fibers-1-0-1-package /Users/mcherkassky/.npm/fibers/1.0.1/package
+569 verbose tar unpack /Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+570 silly lockFile 083294d2-rkassky-npm-fibers-1-0-1-package tar:///Users/mcherkassky/.npm/fibers/1.0.1/package
+571 verbose lock tar:///Users/mcherkassky/.npm/fibers/1.0.1/package /Users/mcherkassky/.npm/083294d2-rkassky-npm-fibers-1-0-1-package.lock
+572 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+573 verbose lock tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz /Users/mcherkassky/.npm/dd679ced-sky-npm-fibers-1-0-1-package-tgz.lock
+574 silly gunzTarPerm modes [ '755', '644' ]
+575 silly gunzTarPerm extractEntry package.json
+576 silly gunzTarPerm extractEntry .npmignore
+577 silly gunzTarPerm extractEntry README.md
+578 silly gunzTarPerm extractEntry LICENSE
+579 silly gunzTarPerm extractEntry quick-test.js
+580 silly gunzTarPerm extractEntry build.js
+581 silly gunzTarPerm extractEntry future.js
+582 silly gunzTarPerm extractEntry test.js
+583 silly gunzTarPerm extractEntry fibers.js
+584 silly gunzTarPerm extractEntry binding.gyp
+585 silly gunzTarPerm extractEntry bin/.npmignore
+586 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.6/fibers.node
+587 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.6/fibers.node
+588 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.11/fibers.node
+589 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.6/fibers.node
+590 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.11/fibers.node
+591 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.14/fibers.node
+592 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.6/fibers.node
+593 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.11/fibers.node
+594 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.14/fibers.node
+595 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.6/fibers.node
+596 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.11/fibers.node
+597 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.14/fibers.node
+598 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.6/fibers.node
+599 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.11/fibers.node
+600 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.14/fibers.node
+601 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.11/fibers.node
+602 silly gunzTarPerm extractEntry src/coroutine.cc
+603 silly gunzTarPerm extractEntry src/coroutine.h
+604 silly gunzTarPerm extractEntry src/fibers.cc
+605 silly gunzTarPerm extractEntry src/libcoro/README
+606 silly gunzTarPerm extractEntry src/libcoro/LICENSE
+607 silly gunzTarPerm extractEntry src/libcoro/conftest.c
+608 silly gunzTarPerm extractEntry src/libcoro/coro.c
+609 silly gunzTarPerm extractEntry src/libcoro/coro.h
+610 silly gunzTarPerm extractEntry test/already-running.js
+611 silly gunzTarPerm extractEntry test/exit.js
+612 silly gunzTarPerm extractEntry test/fibonacci.js
+613 silly gunzTarPerm extractEntry test/finish-multiple.js
+614 silly gunzTarPerm extractEntry test/exec.js
+615 silly gunzTarPerm extractEntry test/future.js
+616 silly gunzTarPerm extractEntry test/illegal-yield.js
+617 silly gunzTarPerm extractEntry test/pool.js
+618 silly gunzTarPerm extractEntry test/process-title.js
+619 silly gunzTarPerm extractEntry test/stack-overflow.js
+620 silly gunzTarPerm extractEntry test/current.js
+621 silly gunzTarPerm extractEntry test/stack-overflow2.js
+622 silly gunzTarPerm extractEntry test/child-process.js
+623 silly gunzTarPerm extractEntry test/started.js
+624 silly gunzTarPerm extractEntry test/bad-context.js
+625 silly gunzTarPerm extractEntry test/unwind.js
+626 silly gunzTarPerm extractEntry test/future-exception.js
+627 silly lockFile 083294d2-rkassky-npm-fibers-1-0-1-package tar:///Users/mcherkassky/.npm/fibers/1.0.1/package
+628 silly lockFile 083294d2-rkassky-npm-fibers-1-0-1-package tar:///Users/mcherkassky/.npm/fibers/1.0.1/package
+629 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+630 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+631 verbose chmod /Users/mcherkassky/.npm/fibers/1.0.1/package.tgz 644
+632 verbose chown /Users/mcherkassky/.npm/fibers/1.0.1/package.tgz [ 501, 20 ]
+633 silly lockFile 721752ce-pmjs-org-fibers-fibers-1-0-1-tgz https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz
+634 silly lockFile 721752ce-pmjs-org-fibers-fibers-1-0-1-tgz https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz
+635 silly lockFile c99c8b50-fibers-1-0-1 fibers@1.0.1
+636 silly lockFile c99c8b50-fibers-1-0-1 fibers@1.0.1
+637 silly lockFile ca7e748b-fibers fibers@*
+638 silly lockFile ca7e748b-fibers fibers@*
+639 silly resolved [ { name: 'canvas',
+639 silly resolved     description: 'Canvas graphics API backed by Cairo',
+639 silly resolved     version: '1.1.2',
+639 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@learnboost.com' },
+639 silly resolved     keywords:
+639 silly resolved      [ 'canvas',
+639 silly resolved        'graphic',
+639 silly resolved        'graphics',
+639 silly resolved        'pixman',
+639 silly resolved        'cairo',
+639 silly resolved        'image',
+639 silly resolved        'images',
+639 silly resolved        'pdf' ],
+639 silly resolved     homepage: 'https://github.com/learnboost/node-canvas',
+639 silly resolved     repository: { type: 'git', url: 'git://github.com/learnboost/node-canvas' },
+639 silly resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+639 silly resolved     dependencies: { nan: '~0.4.1' },
+639 silly resolved     devDependencies: { express: '3.0', jade: '0.28.1', mocha: '*', should: '*' },
+639 silly resolved     engines: { node: '>= 0.6.0' },
+639 silly resolved     main: './lib/canvas.js',
+639 silly resolved     gypfile: true,
+639 silly resolved     readme: '# node-canvas\n\n Node canvas is a [Cairo](http://cairographics.org/) backed Canvas implementation for [NodeJS](http://nodejs.org).\n\n## Authors\n\n  - TJ Holowaychuk ([visionmedia](http://github.com/visionmedia))\n\n## Installation\n\n    $ npm install canvas\n\nUnless previously installed you\'ll _need_ __Cairo__. For system-specific installation view the [Wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages).\n\n## Screencasts\n\n  - [Introduction](http://screenr.com/CTk)\n\n## Example\n\n```javascript\nvar Canvas = require(\'canvas\')\n  , canvas = new Canvas(200,200)\n  , ctx = canvas.getContext(\'2d\');\n\nctx.font = \'30px Impact\';\nctx.rotate(.1);\nctx.fillText("Awesome!", 50, 100);\n\nvar te = ctx.measureText(\'Awesome!\');\nctx.strokeStyle = \'rgba(0,0,0,0.5)\';\nctx.beginPath();\nctx.lineTo(50, 102);\nctx.lineTo(50 + te.width, 102);\nctx.stroke();\n\nconsole.log(\'<img src="\' + canvas.toDataURL() + \'" />\');\n```\n\n## Non-Standard API\n\n node-canvas extends the canvas API to provide interfacing with node, for example streaming PNG data, converting to a `Buffer` instance, etc. Among the interfacing API, in some cases the drawing API has been extended for SSJS image manipulation / creation usage, however keep in mind these additions may fail to render properly within browsers.\n\n### Image#src=Buffer\n\n node-canvas adds `Image#src=Buffer` support, allowing you to read images from disc, redis, etc and apply them via `ctx.drawImage()`. Below we draw scaled down squid png by reading it from the disk with node\'s I/O.\n\n```javascript\nfs.readFile(__dirname + \'/images/squid.png\', function(err, squid){\n  if (err) throw err;\n  img = new Image;\n  img.src = squid;\n  ctx.drawImage(img, 0, 0, img.width / 4, img.height / 4);\n});\n```\n\n Below is an example of a canvas drawing it-self as the source several time:\n\n```javascript\nvar img = new Image;\nimg.src = canvas.toBuffer();\nctx.drawImage(img, 0, 0, 50, 50);\nctx.drawImage(img, 50, 0, 50, 50);\nctx.drawImage(img, 100, 0, 50, 50);\n```\n\n### Image#dataMode\n\nnode-canvas adds `Image#dataMode` support, which can be used to opt-in to mime data tracking of images (currently only JPEGs).\n\nWhen mime data is tracked, in PDF mode JPEGs can be embedded directly into the output, rather than being re-encoded into PNG. This can drastically reduce filesize, and speed up rendering.\n\n```javascript\nvar img = new Image;\nimg.dataMode = Image.MODE_IMAGE; // Only image data tracked\nimg.dataMode = Image.MODE_MIME; // Only mime data tracked\nimg.dataMode = Image.MODE_MIME | Image.MODE_IMAGE; // Both are tracked\n```\n\nIf image data is not tracked, and the Image is drawn to an image rather than a PDF canvas, the output will be junk. Enabling mime data tracking has no benefits (only a slow down) unless you are generating a PDF.\n\n### Canvas#pngStream()\n\n  To create a `PNGStream` simply call `canvas.pngStream()`, and the stream will start to emit _data_ events, finally emitting _end_ when finished. If an exception occurs the _error_ event is emitted.\n\n```javascript\nvar fs = require(\'fs\')\n  , out = fs.createWriteStream(__dirname + \'/text.png\')\n  , stream = canvas.pngStream();\n\nstream.on(\'data\', function(chunk){\n  out.write(chunk);\n});\n\nstream.on(\'end\', function(){\n  console.log(\'saved png\');\n});\n```\n\nCurrently _only_ sync streaming is supported, however we plan on supporting async streaming as well (of course :) ). Until then the `Canvas#toBuffer(callback)` alternative is async utilizing `eio_custom()`.\n\n### Canvas#jpegStream() and Canvas#syncJPEGStream()\n\nYou can likewise create a `JPEGStream` by calling `canvas.jpegStream()` with\nsome optional parameters; functionality is otherwise identical to\n`pngStream()`. See `examples/crop.js` for an example.\n\n_Note: At the moment, `jpegStream()` is the same as `syncJPEGStream()`, both\nare synchronous_\n\n```javascript\nvar stream = canvas.JPEGStream({\n    bufsize: 4096 // output buffer size in bytes, default: 4096 \n  , quality: 75 // JPEG quality (0-100) default: 75\n  , progressive: false // true for progressive compression, default: false\n});\n```\n\n### Canvas#toBuffer()\n\nA call to `Canvas#toBuffer()` will return a node `Buffer` instance containing all of the PNG data.\n\n```javascript\ncanvas.toBuffer();\n```\n\n### Canvas#toBuffer() async\n\nOptionally we may pass a callback function to `Canvas#toBuffer()`, and this process will be performed asynchronously, and will `callback(err, buf)`.\n\n```javascript\ncanvas.toBuffer(function(err, buf){\n\n});\n```\n\n### Canvas#toDataURL() async\n\nOptionally we may pass a callback function to `Canvas#toDataURL()`, and this process will be performed asynchronously, and will `callback(err, str)`.\n\n```javascript\ncanvas.toDataURL(function(err, str){\n\n});\n```\n\nor specify the mime type:\n\n```javascript\ncanvas.toDataURL(\'image/png\', function(err, str){\n\n});\n```\n\n### CanvasRenderingContext2d#patternQuality\n\nGiven one of the values below will alter pattern (gradients, images, etc) render quality, defaults to _good_.\n\n  - fast\n  - good\n  - best\n  - nearest\n  - bilinear\n\n### CanvasRenderingContext2d#textDrawingMode\n\nCan be either `path` or `glyph`. Using `glyph` is much faster than `path` for drawing, and when using a PDF context will embed the text natively, so will be selectable and lower filesize. The downside is that cairo does not have any subpixel precision for `glyph`, so this will be noticeably lower quality for text positioning in cases such as rotated text. Also, strokeText in `glyph` will act the same as fillText, except using the stroke style for the fill.\n\nDefaults to _path_.\n\nThis property is tracked as part of the canvas state in save/restore.\n\n### CanvasRenderingContext2d#filter\n\nLike `patternQuality`, but applies to transformations effecting more than just patterns. Defaults to _good_.\n\n  - fast\n  - good\n  - best\n  - nearest\n  - bilinear\n\n### Global Composite Operations\n\nIn addition to those specified and commonly implemented by browsers, the following have been added:\n\n  - multiply\n  - screen\n  - overlay\n  - hard-light\n  - soft-light\n  - hsl-hue\n  - hsl-saturation\n  - hsl-color\n  - hsl-luminosity\n\n## Anti-Aliasing\n\n Set anti-aliasing mode\n\n - default\n - none\n - gray\n - subpixel\n\n For example:\n\n```javascript\nctx.antialias = \'none\';\n```\n\n## PDF Support\n\n  Basic PDF support was added in 0.11.0. Make sure to install cairo with `--enable-pdf=yes` for the PDF backend. node-canvas must know that it is creating\n  a PDF on initialization, using the "pdf" string:\n\n```js\nvar canvas = new Canvas(200, 500, \'pdf\');\n```\n\n An additional method `.addPage()` is then available to create \n multiple page PDFs:\n\n```js\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World\', 50, 80);\nctx.addPage();\n\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World 2\', 50, 80);\nctx.addPage();\n\nctx.font = \'22px Helvetica\';\nctx.fillText(\'Hello World 3\', 50, 80);\nctx.addPage();\n```\n\n## Benchmarks\n\n Although node-canvas is extremely new, and we have not even begun optimization yet it is already quite fast. For benchmarks vs other node canvas implementations view this [gist](https://gist.github.com/664922), or update the submodules and run `$ make benchmark` yourself.\n\n## Contribute\n\n Want to contribute to node-canvas? patches for features, bug fixes, documentation, examples and others are certainly welcome. Take a look at the [issue queue](https://github.com/LearnBoost/node-canvas/issues) for existing issues.\n\n## Examples\n\n Examples are placed in _./examples_, be sure to check them out! most produce a png image of the same name, and others such as _live-clock.js_ launch an http server to be viewed in the browser.\n\n## Testing\n\nIf you have not previously, init git submodules:\n\n    $ git submodule update --init\n\nBuild node-canvas:\n\n    $ node-waf configure build\n\nUnit tests:\n\n    $ make test\n\nVisual tests:\n\n    $ make test-server\n\n## Versions\n\nTested with and designed for:\n\n  - node 0.4.2\n  - cairo 1.8.6\n\nFor node 0.2.x `node-canvas` <= 0.4.3 may be used,\n0.5.0 and above are designed for node 0.4.x only.\n\n## Contributors\n\n```\nproject  : node-canvas\n repo age : 1 year, 11 months\n active   : 120 days\n commits  : 963\n files    : 72\n authors  : \n   816\tTj Holowaychuk          84.7%\n    58\tTJ Holowaychuk          6.0%\n    23\tc-spencer               2.4%\n    16\tNathan Rajlich          1.7%\n    12\tatomizer                1.2%\n     6\tElijah Hamovitz         0.6%\n     5\tLuigi Pinca             0.5%\n     5\tRobert Sköld            0.5%\n     4\tobarthel                0.4%\n     3\tDon Park                0.3%\n     2\tAndreas Botsikas        0.2%\n     2\tGabriel Falcao          0.2%\n     1\tBrian McKinney          0.1%\n     1\tSeiya Konno             0.1%\n     1\tSyoyo Fujita            0.1%\n     1\tMarcello Bastea-Forte   0.1%\n     1\tTharit                  0.1%\n     1\tKonstantin Käfer        0.1%\n     1\tTom Carden              0.1%\n     1\tWalt Lin                0.1%\n     1\tDavid Björklund         0.1%\n     1\tBrian White             0.1%\n     1\tPhilippe Plantier       0.1%\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2010 LearnBoost &lt;dev@learnboost.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+639 silly resolved     readmeFilename: 'Readme.md',
+639 silly resolved     bugs: { url: 'https://github.com/learnboost/node-canvas/issues' },
+639 silly resolved     _id: 'canvas@1.1.2',
+639 silly resolved     dist: { shasum: '59f19f4b998df3c921ff7f6b959d2b3d6518f144' },
+639 silly resolved     _from: 'canvas@*',
+639 silly resolved     _resolved: 'https://registry.npmjs.org/canvas/-/canvas-1.1.2.tgz' },
+639 silly resolved   { name: 'fibers',
+639 silly resolved     version: '1.0.1',
+639 silly resolved     description: 'Cooperative multi-tasking for Javascript',
+639 silly resolved     keywords:
+639 silly resolved      [ 'fiber',
+639 silly resolved        'fibers',
+639 silly resolved        'coroutine',
+639 silly resolved        'thread',
+639 silly resolved        'async',
+639 silly resolved        'parallel',
+639 silly resolved        'worker',
+639 silly resolved        'future',
+639 silly resolved        'promise' ],
+639 silly resolved     homepage: 'https://github.com/laverdet/node-fibers',
+639 silly resolved     author:
+639 silly resolved      { name: 'Marcel Laverdet',
+639 silly resolved        email: 'marcel@laverdet.com',
+639 silly resolved        url: 'https://github.com/laverdet/' },
+639 silly resolved     main: 'fibers',
+639 silly resolved     scripts: { install: 'node ./build.js', test: 'node ./test.js' },
+639 silly resolved     repository:
+639 silly resolved      { type: 'git',
+639 silly resolved        url: 'git://github.com/laverdet/node-fibers.git' },
+639 silly resolved     engines: { node: '>=0.5.2' },
+639 silly resolved     readme: 'fibers(1) -- Fiber support for v8 and Node\n==========================================\n\nINSTALLING\n----------\n\n### via npm\n* `npm install fibers`\n* You\'re done!\n\n### from source\n* `git clone git://github.com/laverdet/node-fibers.git`\n* `cd node-fibers`\n* `npm install`\n\nNote: node-fibers uses [node-gyp](https://github.com/TooTallNate/node-gyp) for\nbuilding. To manually invoke the build process, you can use `node-gyp rebuild`.\nThis will put the compiled extension in `build/Release/fibers.node`. However,\nwhen you do `require(\'fibers\')`, it will expect the module to be in, for\nexample, `bin/linux-x64-v8-3.11/fibers.node`. You can manually put the module\nhere every time you build, or you can use the included build script. Either\n`npm install` or `node build -f` will do this for you. If you are going to be\nhacking on node-fibers, it may be worthwhile to first do `node-gyp configure`\nand then for subsequent rebuilds you can just do `node-gyp build` which will\nbe faster than a full `npm install` or `node-gyp rebuild`.\n\n### important!\nIt\'s recommended that you use node 0.6.18 or higher with node-fibers. Using\nother versions may lead to instability during high loads.\n\n### using windows 8?\nWindows 8 is a beta operating system and you may have issues with fibers. To use\nfibers in Windows 8 you may need to run node.exe in Windows 7 compatibility\nmode. Once Windows 8 is released this issue will be revisited. See gh-70 for\nmore information.\n\n### other notes\nUnlike most NodeJS projects, node-fibers is a C++ project. Some extra work is\nrequired to compile node-fibers, but pretty much every platform is supported\nin some way. Binary distributions in 32 and 64-bit forms are provided in npm for\nLinux, OS X, and Windows (special thanks to\n[Jeroen Janssen](https://github.com/japj) for his work on fibers in Windows).\n\nSupport for Solaris, FreeBSD, and OpenBSD is provided by compiling the extension\non your system during install time via\n[node-gyp](https://github.com/TooTallNate/node-gyp). If your operating system\nisn\'t listed here you may have luck copying the build process for one of the\nother OS\'s, assuming you are running a POSIX-like OS.\n\nnode 0.6.x is required to run this release of node-fibers. Older versions of\nnode (0.4.x) are supported in older releases of node-fibers. See the 0.5.x\nbranch of node-fibers for documentation.\n\n\nEXAMPLES\n--------\n\nThe examples below describe basic use of `Fiber`, but note that it is **not\nrecommended** to use `Fiber` without an abstraction in between your code and\nfibers. See "FUTURES" below for additional information.\n\n### Sleep\nThis is a quick example of how you can write sleep() with fibers. Note that\nwhile the sleep() call is blocking inside the fiber, node is able to handle\nother events.\n\n\t$ cat sleep.js\n\n```javascript\nvar Fiber = require(\'fibers\');\n\nfunction sleep(ms) {\n\tvar fiber = Fiber.current;\n\tsetTimeout(function() {\n\t\tfiber.run();\n\t}, ms);\n\tFiber.yield();\n}\n\nFiber(function() {\n\tconsole.log(\'wait... \' + new Date);\n\tsleep(1000);\n\tconsole.log(\'ok... \' + new Date);\n}).run();\nconsole.log(\'back in main\');\n```\n\n\t$ node sleep.js\n\twait... Fri Jan 21 2011 22:42:04 GMT+0900 (JST)\n\tback in main\n\tok... Fri Jan 21 2011 22:42:05 GMT+0900 (JST)\n\n\n### Incremental Generator\nYielding execution will resume back in the fiber right where you left off. You\ncan also pass values back and forth through yield() and run(). Again, the node\nevent loop is never blocked while this script is running.\n\n\t$ cat generator.js\n\n```javascript\nvar Fiber = require(\'fibers\');\n\nvar inc = Fiber(function(start) {\n\tvar total = start;\n\twhile (true) {\n\t\ttotal += Fiber.yield(total);\n\t}\n});\n\nfor (var ii = inc.run(1); ii <= 10; ii = inc.run(1)) {\n\tconsole.log(ii);\n}\n```\n\n\t$ node generator.js\n\t1\n\t2\n\t3\n\t4\n\t5\n\t6\n\t7\n\t8\n\t9\n\t10\n\n\n### Fibonacci Generator\nExpanding on the incremental generator above, we can create a generator which\nreturns a new Fibonacci number with each invocation. You can compare this with\nthe [ECMAScript Harmony\nGenerator](http://wiki.ecmascript.org/doku.php?id=harmony:generators) Fibonacci\nexample.\n\n\t$ cat fibonacci.js\n\n```javascript\nvar Fiber = require(\'fibers\');\n\n// Generator function. Returns a function which returns incrementing\n// Fibonacci numbers with each call.\nfunction Fibonacci() {\n\t// Create a new fiber which yields sequential Fibonacci numbers\n\tvar fiber = Fiber(function() {\n\t\tFiber.yield(0); // F(0) -> 0\n\t\tvar prev = 0, curr = 1;\n\t\twhile (true) {\n\t\t\tFiber.yield(curr);\n\t\t\tvar tmp = prev + curr;\n\t\t\tprev = curr;\n\t\t\tcurr = tmp;\n\t\t}\n\t});\n\t// Return a bound handle to `run` on this fiber\n\treturn fiber.run.bind(fiber);\n}\n\n// Initialize a new Fibonacci sequence and iterate up to 1597\nvar seq = Fibonacci();\nfor (var ii = seq(); ii <= 1597; ii = seq()) {\n\tconsole.log(ii);\n}\n```\n\n\t$ node fibonacci.js\n\t0\n\t1\n\t1\n\t2\n\t3\n\t5\n\t8\n\t13\n\t21\n\t34\n\t55\n\t89\n\t144\n\t233\n\t377\n\t610\n\t987\n\t1597\n\n\n### Basic Exceptions\nFibers are exception-safe; exceptions will continue travelling through fiber\nboundaries:\n\n\t$ cat error.js\n\n```javascript\nvar Fiber = require(\'fibers\');\n\nvar fn = Fiber(function() {\n\tconsole.log(\'async work here...\');\n\tFiber.yield();\n\tconsole.log(\'still working...\');\n\tFiber.yield();\n\tconsole.log(\'just a little bit more...\');\n\tFiber.yield();\n\tthrow new Error(\'oh crap!\');\n});\n\ntry {\n\twhile (true) {\n\t\tfn.run();\n\t}\n} catch(e) {\n\tconsole.log(\'safely caught that error!\');\n\tconsole.log(e.stack);\n}\nconsole.log(\'done!\');\n```\n\n\t$ node error.js\n\tasync work here...\n\tstill working...\n\tjust a little bit more...\n\tsafely caught that error!\n\tError: oh crap!\n\t\t\tat error.js:11:9\n\tdone!\n\n\nFUTURES\n-------\n\nUsing the `Fiber` class without an abstraction in between your code and the raw\nAPI is **not recommended**. `Fiber` is meant to implement the smallest amount of\nfunctionality in order make possible many different programming patterns. This\nmakes the `Fiber` class relatively lousy to work with directly, but extremely\npowerful when coupled with a decent abstraction. There is no right answer for\nwhich abstraction is right for you and your project. Included with `node-fibers`\nis an implementation of "futures" which is fiber-aware. Usage of this library\nis documented below. There are several other externally-maintained options\nwhich can be found on the [wiki](https://github.com/laverdet/node-fibers/wiki).\nYou **should** feel encouraged to be creative with fibers and build a solution\nwhich works well with your project. For instance, `Future` is not a good\nabstraction to use if you want to build a generator function (see Fibonacci\nexample above).\n\nUsing `Future` to wrap existing node functions. At no point is the node event\nloop blocked:\n\n\t$ cat ls.js\n\n```javascript\nvar Future = require(\'fibers/future\'), wait = Future.wait;\nvar fs = require(\'fs\');\n\n// This wraps existing functions assuming the last argument of the passed\n// function is a callback. The new functions created immediately return a\n// future and the future will resolve when the callback is called (which\n// happens behind the scenes).\nvar readdir = Future.wrap(fs.readdir);\nvar stat = Future.wrap(fs.stat);\n\nFiber(function() {\n\t// Get a list of files in the directory\n\tvar fileNames = readdir(\'.\').wait();\n\tconsole.log(\'Found \'+ fileNames.length+ \' files\');\n\n\t// Stat each file\n\tvar stats = [];\n\tfor (var ii = 0; ii < fileNames.length; ++ii) {\n\t\tstats.push(stat(fileNames[ii]));\n\t}\n\twait(stats);\n\n\t// Print file size\n\tfor (var ii = 0; ii < fileNames.length; ++ii) {\n\t\tconsole.log(fileNames[ii]+ \': \'+ stats[ii].get().size);\n\t}\n}).run();\n```\n\n\t$ node ls.js \n\tFound 11 files\n\tbin: 4096\n\tfibers.js: 1708\n\t.gitignore: 37\n\tREADME.md: 8664\n\tfuture.js: 5833\n\t.git: 4096\n\tLICENSE: 1054\n\tsrc: 4096\n\tls.js: 860\n\tMakefile: 436\n\tpackage.json: 684\n\n\nThe future API is designed to make it easy to move between classic\ncallback-style code and fiber-aware waiting code:\n\n\t$ cat sleep.js\n\n```javascript\nvar Future = require(\'fibers/future\'), wait = Future.wait;\n\n// This function returns a future which resolves after a timeout. This\n// demonstrates manually resolving futures.\nfunction sleep(ms) {\n\tvar future = new Future;\n\tsetTimeout(function() {\n\t\tfuture.return();\n\t}, ms);\n\treturn future;\n}\n\n// You can create functions which automatically run in their own fiber and\n// return futures that resolve when the fiber returns (this probably sounds\n// confusing.. just play with it to understand).\nvar calcTimerDelta = function(ms) {\n\tvar start = new Date;\n\tsleep(ms).wait();\n\treturn new Date - start;\n}.future(); // <-- important!\n\n// And futures also include node-friendly callbacks if you don\'t want to use\n// wait()\ncalcTimerDelta(2000).resolve(function(err, val) {\n\tconsole.log(\'Set timer for 2000ms, waited \'+ val+ \'ms\');\n});\n```\n\n\t$ node sleep.js\n\tSet timer for 2000ms, waited 2009ms\n\n\nAPI DOCUMENTATION\n-----------------\nFiber\'s definition looks something like this:\n\n```javascript\n/**\n * Instantiate a new Fiber. You may invoke this either as a function or as\n * a constructor; the behavior is the same.\n *\n * When run() is called on this fiber for the first time, `fn` will be\n * invoked as the first frame on a new stack. Execution will continue on\n * this new stack until `fn` returns, or Fiber.yield() is called.\n *\n * After the function returns the fiber is reset to original state and\n * may be restarted with another call to run().\n */\nfunction Fiber(fn) {\n\t[native code]\n}\n\n/**\n * `Fiber.current` will contain the currently-running Fiber. It will be\n * `undefined` if there is no fiber (i.e. the main stack of execution).\n *\n * See "Garbage Collection" for more information on responsible use of\n * `Fiber.current`.\n */\nFiber.current = undefined;\n\n/**\n * `Fiber.yield()` will halt execution of the current fiber and return control\n * back to original caller of run(). If an argument is supplied to yield(),\n * run() will return that value.\n *\n * When run() is called again, yield() will return.\n *\n * Note that this function is a global to allow for correct garbage\n * collection. This results in no loss of functionality because it is only\n * valid to yield from the currently running fiber anyway.\n *\n * Note also that `yield` is a reserved word in Javascript. This is normally\n * not an issue, however some code linters may complain. Rest assured that it\n * will run fine now and in future versions of Javascript.\n */\nFiber.yield = function(param) {\n\t[native code]\n}\n\n/**\n * run() will start execution of this Fiber, or if it is currently yielding,\n * it will resume execution. If an argument is supplied, this argument will\n * be passed to the fiber, either as the first parameter to the main\n * function [if the fiber has not been started] or as the return value of\n * yield() [if the fiber is currently yielding].\n *\n * This function will return either the parameter passed to yield(), or the\n * returned value from the fiber\'s main function.\n */\nFiber.prototype.run = function(param) {\n\t[native code]\n}\n\n/**\n * reset() will terminate a running Fiber and restore it to its original\n * state, as if it had returned execution.\n *\n * This is accomplished by causing yield() to throw an exception, and any\n * futher calls to yield() will also throw an exception. This continues\n * until the fiber has completely unwound and returns.\n *\n * If the fiber returns a value it will be returned by reset().\n *\n * If the fiber is not running, reset() will have no effect.\n */\nFiber.prototype.reset = function() {\n\t[native code]\n}\n\n/**\n * throwInto() will cause a currently yielding fiber\'s yield() call to\n * throw instead of return gracefully. This can be useful for notifying a\n * fiber that you are no longer interested in its task, and that it should\n * give up.\n *\n * Note that if the fiber does not handle the exception it will continue to\n * bubble up and throwInto() will throw the exception right back at you.\n */\nFiber.prototype.throwInto = function(exception) {\n\t[native code]\n}\n```\n\nGARBAGE COLLECTION\n------------------\n\nIf you intend to build generators, iterators, or "lazy lists", you should be\naware that all fibers must eventually unwind. This is implemented by causing\nyield() to throw unconditionally when the library is trying to unwind your\nfiber-- either because reset() was called, or all handles to the fiber were lost\nand v8 wants to delete it.\n\nSomething like this will, at some point, cause an infinite loop in your\napplication:\n\n```javascript\nvar fiber = Fiber(function() {\n\twhile (true) {\n\t\ttry {\n\t\t\tFiber.yield();\n\t\t} catch(e) {}\n\t}\n});\nfiber.run();\n```\n\nIf you either call reset() on this fiber, or the v8 garbage collector decides it\nis no longer in use, the fiber library will attempt to unwind the fiber by\ncausing all calls to yield() to throw. However, if you catch these exceptions\nand continue anyway, an infinite loop will occur.\n\nThere are other garbage collection issues that occur with misuse of fiber\nhandles. If you grab a handle to a fiber from within itself, you should make\nsure that the fiber eventually unwinds. This application will leak memory:\n\n```javascript\nvar fiber = Fiber(function() {\n\tvar that = Fiber.current;\n\tFiber.yield();\n}\nfiber.run();\nfiber = undefined;\n```\n\nThere is no way to get back into the fiber that was started, however it\'s\nimpossible for v8\'s garbage collector to detect this. With a handle to the fiber\nstill outstanding, v8 will never garbage collect it and the stack will remain in\nmemory until the application exits.\n\nThus, you should take care when grabbing references to `Fiber.current`.\n',
+639 silly resolved     readmeFilename: 'README.md',
+639 silly resolved     bugs: { url: 'https://github.com/laverdet/node-fibers/issues' },
+639 silly resolved     _id: 'fibers@1.0.1',
+639 silly resolved     dist: { shasum: 'b7275bde732bb7b1659fd175a0063e86d4afa749' },
+639 silly resolved     _from: 'fibers@*',
+639 silly resolved     _resolved: 'https://registry.npmjs.org/fibers/-/fibers-1.0.1.tgz' } ]
+640 info install canvas@1.1.2 into /Users/mcherkassky/Desktop/chirp/node_modules/caman
+641 info install fibers@1.0.1 into /Users/mcherkassky/Desktop/chirp/node_modules/caman
+642 info installOne canvas@1.1.2
+643 info installOne fibers@1.0.1
+644 info /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas unbuild
+645 info /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers unbuild
+646 verbose tar unpack /Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+647 silly lockFile b3cc13d0-odules-caman-node-modules-canvas tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas
+648 verbose lock tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas /Users/mcherkassky/.npm/b3cc13d0-odules-caman-node-modules-canvas.lock
+649 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+650 verbose lock tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz /Users/mcherkassky/.npm/b809383f-sky-npm-canvas-1-1-2-package-tgz.lock
+651 verbose tar unpack /Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+652 silly lockFile cc118ada-odules-caman-node-modules-fibers tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers
+653 verbose lock tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers /Users/mcherkassky/.npm/cc118ada-odules-caman-node-modules-fibers.lock
+654 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+655 verbose lock tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz /Users/mcherkassky/.npm/dd679ced-sky-npm-fibers-1-0-1-package-tgz.lock
+656 silly gunzTarPerm modes [ '755', '644' ]
+657 silly gunzTarPerm modes [ '755', '644' ]
+658 silly gunzTarPerm extractEntry package.json
+659 silly gunzTarPerm extractEntry package.json
+660 silly gunzTarPerm extractEntry .npmignore
+661 silly gunzTarPerm extractEntry index.js
+662 silly gunzTarPerm extractEntry .npmignore
+663 silly gunzTarPerm extractEntry README.md
+664 silly gunzTarPerm extractEntry LICENSE
+665 silly gunzTarPerm extractEntry binding.gyp
+666 silly gunzTarPerm extractEntry Makefile
+667 silly gunzTarPerm extractEntry quick-test.js
+668 silly gunzTarPerm extractEntry build.js
+669 silly gunzTarPerm extractEntry Readme.md
+670 silly gunzTarPerm extractEntry .gitmodules
+671 silly gunzTarPerm extractEntry .travis.yml
+672 silly gunzTarPerm extractEntry install
+673 silly gunzTarPerm extractEntry lib/bindings.js
+674 silly gunzTarPerm extractEntry lib/canvas.js
+675 silly gunzTarPerm extractEntry lib/context2d.js
+676 silly gunzTarPerm extractEntry lib/image.js
+677 silly gunzTarPerm extractEntry lib/jpegstream.js
+678 silly gunzTarPerm extractEntry lib/pixelarray.js
+679 silly gunzTarPerm extractEntry lib/pngstream.js
+680 silly gunzTarPerm extractEntry History.md
+681 silly gunzTarPerm extractEntry src/Image.h
+682 silly gunzTarPerm extractEntry src/Canvas.cc
+683 silly gunzTarPerm extractEntry src/CanvasGradient.cc
+684 silly gunzTarPerm extractEntry src/CanvasGradient.h
+685 silly gunzTarPerm extractEntry src/CanvasPattern.cc
+686 silly gunzTarPerm extractEntry src/CanvasPattern.h
+687 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.cc
+688 silly gunzTarPerm extractEntry src/CanvasRenderingContext2d.h
+689 silly gunzTarPerm extractEntry src/FontFace.cc
+690 silly gunzTarPerm extractEntry src/FontFace.h
+691 silly gunzTarPerm extractEntry src/Image.cc
+692 silly gunzTarPerm extractEntry src/Canvas.h
+693 silly gunzTarPerm extractEntry src/ImageData.cc
+694 silly gunzTarPerm extractEntry src/ImageData.h
+695 silly gunzTarPerm extractEntry src/JPEGStream.h
+696 silly gunzTarPerm extractEntry src/PNG.h
+697 silly gunzTarPerm extractEntry src/PixelArray.cc
+698 silly gunzTarPerm extractEntry src/PixelArray.h
+699 silly gunzTarPerm extractEntry src/Point.h
+700 silly gunzTarPerm extractEntry src/closure.h
+701 silly gunzTarPerm extractEntry src/color.cc
+702 silly gunzTarPerm extractEntry src/color.h
+703 silly gunzTarPerm extractEntry src/init.cc
+704 silly gunzTarPerm extractEntry util/cairo_include.sh
+705 silly gunzTarPerm extractEntry util/has_cairo_freetype.sh
+706 silly gunzTarPerm extractEntry util/has_lib.sh
+707 silly gunzTarPerm extractEntry util/lib_lookup.sh
+708 silly gunzTarPerm extractEntry future.js
+709 silly gunzTarPerm extractEntry test.js
+710 silly gunzTarPerm extractEntry fibers.js
+711 silly gunzTarPerm extractEntry binding.gyp
+712 silly gunzTarPerm extractEntry bin/.npmignore
+713 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.6/fibers.node
+714 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.6/fibers.node
+715 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.11/fibers.node
+716 silly gunzTarPerm extractEntry bin/darwin-x64-v8-3.6/fibers.node
+717 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.11/fibers.node
+718 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.14/fibers.node
+719 silly gunzTarPerm extractEntry bin/linux-ia32-v8-3.6/fibers.node
+720 silly gunzTarPerm extractEntry bin/darwin-ia32-v8-3.11/fibers.node
+721 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.14/fibers.node
+722 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.6/fibers.node
+723 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.11/fibers.node
+724 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.14/fibers.node
+725 silly gunzTarPerm extractEntry bin/win32-ia32-v8-3.6/fibers.node
+726 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.11/fibers.node
+727 silly gunzTarPerm extractEntry bin/win32-x64-v8-3.14/fibers.node
+728 silly gunzTarPerm extractEntry bin/linux-x64-v8-3.11/fibers.node
+729 silly gunzTarPerm extractEntry src/coroutine.cc
+730 silly lockFile b3cc13d0-odules-caman-node-modules-canvas tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas
+731 silly lockFile b3cc13d0-odules-caman-node-modules-canvas tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas
+732 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+733 silly lockFile b809383f-sky-npm-canvas-1-1-2-package-tgz tar:///Users/mcherkassky/.npm/canvas/1.1.2/package.tgz
+734 info preinstall canvas@1.1.2
+735 verbose readDependencies using package.json deps
+736 verbose readDependencies using package.json deps
+737 verbose cache add [ 'nan@~0.4.1', null ]
+738 verbose cache add name=undefined spec="nan@~0.4.1" args=["nan@~0.4.1",null]
+739 verbose parsed url { protocol: null,
+739 verbose parsed url   slashes: null,
+739 verbose parsed url   auth: null,
+739 verbose parsed url   host: null,
+739 verbose parsed url   port: null,
+739 verbose parsed url   hostname: null,
+739 verbose parsed url   hash: null,
+739 verbose parsed url   search: null,
+739 verbose parsed url   query: null,
+739 verbose parsed url   pathname: 'nan@~0.4.1',
+739 verbose parsed url   path: 'nan@~0.4.1',
+739 verbose parsed url   href: 'nan@~0.4.1' }
+740 verbose cache add name="nan" spec="~0.4.1" args=["nan","~0.4.1"]
+741 verbose parsed url { protocol: null,
+741 verbose parsed url   slashes: null,
+741 verbose parsed url   auth: null,
+741 verbose parsed url   host: null,
+741 verbose parsed url   port: null,
+741 verbose parsed url   hostname: null,
+741 verbose parsed url   hash: null,
+741 verbose parsed url   search: null,
+741 verbose parsed url   query: null,
+741 verbose parsed url   pathname: '~0.4.1',
+741 verbose parsed url   path: '~0.4.1',
+741 verbose parsed url   href: '~0.4.1' }
+742 verbose addNamed [ 'nan', '~0.4.1' ]
+743 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+744 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+745 verbose lock nan@~0.4.1 /Users/mcherkassky/.npm/d65817a5-nan-0-4-1.lock
+746 silly addNameRange { name: 'nan', range: '>=0.4.1-0 <0.5.0-0', hasData: false }
+747 silly gunzTarPerm extractEntry src/coroutine.h
+748 silly gunzTarPerm extractEntry src/fibers.cc
+749 silly gunzTarPerm extractEntry src/libcoro/README
+750 silly gunzTarPerm extractEntry src/libcoro/LICENSE
+751 silly gunzTarPerm extractEntry src/libcoro/conftest.c
+752 silly gunzTarPerm extractEntry src/libcoro/coro.c
+753 silly gunzTarPerm extractEntry src/libcoro/coro.h
+754 silly gunzTarPerm extractEntry test/already-running.js
+755 silly gunzTarPerm extractEntry test/exit.js
+756 silly gunzTarPerm extractEntry test/fibonacci.js
+757 silly gunzTarPerm extractEntry test/finish-multiple.js
+758 silly gunzTarPerm extractEntry test/exec.js
+759 silly gunzTarPerm extractEntry test/future.js
+760 silly gunzTarPerm extractEntry test/illegal-yield.js
+761 silly gunzTarPerm extractEntry test/pool.js
+762 silly gunzTarPerm extractEntry test/process-title.js
+763 verbose url raw nan
+764 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+765 verbose url resolved https://registry.npmjs.org/nan
+766 info trying registry request attempt 1 at 18:05:47
+767 verbose etag "326ZR03FP3Y9MEI3UXQKLZLFQ"
+768 http GET https://registry.npmjs.org/nan
+769 silly gunzTarPerm extractEntry test/stack-overflow.js
+770 silly gunzTarPerm extractEntry test/current.js
+771 silly gunzTarPerm extractEntry test/stack-overflow2.js
+772 silly gunzTarPerm extractEntry test/child-process.js
+773 silly gunzTarPerm extractEntry test/started.js
+774 silly gunzTarPerm extractEntry test/bad-context.js
+775 silly gunzTarPerm extractEntry test/unwind.js
+776 silly gunzTarPerm extractEntry test/future-exception.js
+777 silly lockFile cc118ada-odules-caman-node-modules-fibers tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers
+778 silly lockFile cc118ada-odules-caman-node-modules-fibers tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers
+779 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+780 silly lockFile dd679ced-sky-npm-fibers-1-0-1-package-tgz tar:///Users/mcherkassky/.npm/fibers/1.0.1/package.tgz
+781 info preinstall fibers@1.0.1
+782 verbose readDependencies using package.json deps
+783 verbose readDependencies using package.json deps
+784 silly resolved []
+785 verbose about to build /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers
+786 info build /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/fibers
+787 verbose linkStuff [ false,
+787 verbose linkStuff   false,
+787 verbose linkStuff   false,
+787 verbose linkStuff   '/Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules' ]
+788 info linkStuff fibers@1.0.1
+789 verbose linkBins fibers@1.0.1
+790 verbose linkMans fibers@1.0.1
+791 verbose rebuildBundles fibers@1.0.1
+792 info install fibers@1.0.1
+793 verbose unsafe-perm in lifecycle true
+794 http 200 https://registry.npmjs.org/nan
+795 silly registry.get cb [ 200,
+795 silly registry.get   { vary: 'Accept',
+795 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+795 silly registry.get     etag: '"ESALFKE8SEQGC5PVJ17ODCBDG"',
+795 silly registry.get     date: 'Thu, 21 Nov 2013 23:05:47 GMT',
+795 silly registry.get     'content-type': 'application/json',
+795 silly registry.get     'content-length': '434544' } ]
+796 silly addNameRange number 2 { name: 'nan', range: '>=0.4.1-0 <0.5.0-0', hasData: true }
+797 silly addNameRange versions [ 'nan',
+797 silly addNameRange   [ '0.3.0-wip',
+797 silly addNameRange     '0.3.0-wip2',
+797 silly addNameRange     '0.3.0',
+797 silly addNameRange     '0.3.1',
+797 silly addNameRange     '0.3.2',
+797 silly addNameRange     '0.4.0',
+797 silly addNameRange     '0.4.1',
+797 silly addNameRange     '0.4.2',
+797 silly addNameRange     '0.4.3',
+797 silly addNameRange     '0.4.4',
+797 silly addNameRange     '0.5.0',
+797 silly addNameRange     '0.5.1',
+797 silly addNameRange     '0.5.2',
+797 silly addNameRange     '0.6.0' ] ]
+798 verbose addNamed [ 'nan', '0.4.4' ]
+799 verbose addNamed [ '0.4.4', '0.4.4' ]
+800 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+801 verbose lock nan@0.4.4 /Users/mcherkassky/.npm/795fb663-nan-0-4-4.lock
+802 silly lockFile cdd3cd42-stry-npmjs-org-nan-nan-0-4-4-tgz https://registry.npmjs.org/nan/-/nan-0.4.4.tgz
+803 verbose lock https://registry.npmjs.org/nan/-/nan-0.4.4.tgz /Users/mcherkassky/.npm/cdd3cd42-stry-npmjs-org-nan-nan-0-4-4-tgz.lock
+804 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-0.4.4.tgz',
+804 verbose addRemoteTarball   '9db58eae63cee119807a0d01afd0655d956bea75' ]
+805 info retry fetch attempt 1 at 18:05:48
+806 verbose fetch to= /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/tmp.tgz
+807 http GET https://registry.npmjs.org/nan/-/nan-0.4.4.tgz
+808 http 200 https://registry.npmjs.org/nan/-/nan-0.4.4.tgz
+809 verbose tar unpack /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/tmp.tgz
+810 silly lockFile 414d475c-48270-0-4521986427716911-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+811 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package /Users/mcherkassky/.npm/414d475c-48270-0-4521986427716911-package.lock
+812 silly lockFile ee22aa6d-48270-0-4521986427716911-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/tmp.tgz
+813 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/tmp.tgz /Users/mcherkassky/.npm/ee22aa6d-48270-0-4521986427716911-tmp-tgz.lock
+814 silly gunzTarPerm modes [ '755', '644' ]
+815 silly gunzTarPerm extractEntry package.json
+816 silly gunzTarPerm extractEntry README.md
+817 silly gunzTarPerm extractEntry LICENSE
+818 silly gunzTarPerm extractEntry .index.js
+819 silly gunzTarPerm extractEntry nan.h
+820 silly lockFile 414d475c-48270-0-4521986427716911-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+821 silly lockFile 414d475c-48270-0-4521986427716911-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+822 silly lockFile ee22aa6d-48270-0-4521986427716911-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/tmp.tgz
+823 silly lockFile ee22aa6d-48270-0-4521986427716911-tmp-tgz tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/tmp.tgz
+824 verbose tar pack [ '/Users/mcherkassky/.npm/nan/0.4.4/package.tgz',
+824 verbose tar pack   '/var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package' ]
+825 verbose tarball /Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+826 verbose folder /var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+827 silly lockFile 414d475c-48270-0-4521986427716911-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+828 verbose lock tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package /Users/mcherkassky/.npm/414d475c-48270-0-4521986427716911-package.lock
+829 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+830 verbose lock tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz /Users/mcherkassky/.npm/db0d5ed0-kassky-npm-nan-0-4-4-package-tgz.lock
+831 silly lockFile 414d475c-48270-0-4521986427716911-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+832 silly lockFile 414d475c-48270-0-4521986427716911-package tar:///var/folders/py/pggnm_v57s5bh174fpnlysnh0000gn/T/npm-21987-WneJvk2m/1385075148270-0.4521986427716911/package
+833 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+834 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+835 silly lockFile 927937d5-cherkassky-npm-nan-0-4-4-package /Users/mcherkassky/.npm/nan/0.4.4/package
+836 verbose lock /Users/mcherkassky/.npm/nan/0.4.4/package /Users/mcherkassky/.npm/927937d5-cherkassky-npm-nan-0-4-4-package.lock
+837 silly lockFile 927937d5-cherkassky-npm-nan-0-4-4-package /Users/mcherkassky/.npm/nan/0.4.4/package
+838 silly lockFile 927937d5-cherkassky-npm-nan-0-4-4-package /Users/mcherkassky/.npm/nan/0.4.4/package
+839 verbose tar unpack /Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+840 silly lockFile d5c30da9-cherkassky-npm-nan-0-4-4-package tar:///Users/mcherkassky/.npm/nan/0.4.4/package
+841 verbose lock tar:///Users/mcherkassky/.npm/nan/0.4.4/package /Users/mcherkassky/.npm/d5c30da9-cherkassky-npm-nan-0-4-4-package.lock
+842 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+843 verbose lock tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz /Users/mcherkassky/.npm/db0d5ed0-kassky-npm-nan-0-4-4-package-tgz.lock
+844 silly gunzTarPerm modes [ '755', '644' ]
+845 silly gunzTarPerm extractEntry package.json
+846 silly gunzTarPerm extractEntry README.md
+847 silly gunzTarPerm extractEntry LICENSE
+848 silly gunzTarPerm extractEntry .index.js
+849 silly gunzTarPerm extractEntry nan.h
+850 silly lockFile d5c30da9-cherkassky-npm-nan-0-4-4-package tar:///Users/mcherkassky/.npm/nan/0.4.4/package
+851 silly lockFile d5c30da9-cherkassky-npm-nan-0-4-4-package tar:///Users/mcherkassky/.npm/nan/0.4.4/package
+852 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+853 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+854 verbose chmod /Users/mcherkassky/.npm/nan/0.4.4/package.tgz 644
+855 verbose chown /Users/mcherkassky/.npm/nan/0.4.4/package.tgz [ 501, 20 ]
+856 silly lockFile cdd3cd42-stry-npmjs-org-nan-nan-0-4-4-tgz https://registry.npmjs.org/nan/-/nan-0.4.4.tgz
+857 silly lockFile cdd3cd42-stry-npmjs-org-nan-nan-0-4-4-tgz https://registry.npmjs.org/nan/-/nan-0.4.4.tgz
+858 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+859 silly lockFile 795fb663-nan-0-4-4 nan@0.4.4
+860 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+861 silly lockFile d65817a5-nan-0-4-1 nan@~0.4.1
+862 silly resolved [ { name: 'nan',
+862 silly resolved     version: '0.4.4',
+862 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+862 silly resolved     main: '.index.js',
+862 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+862 silly resolved     contributors: [ [Object], [Object], [Object] ],
+862 silly resolved     license: 'MIT',
+862 silly resolved     readme: 'Native Abstractions for Node.js\n===============================\n\n**A header file filled with macro and utility goodness for making add-on development for Node.js easier across versions 0.8, 0.10 and 0.11, and eventually 0.12.**\n\n***Current version: 0.4.4*** *(See [nan.h](https://github.com/rvagg/nan/blob/master/nan.h) for complete ChangeLog)*\n\n[![NPM](https://nodei.co/npm/nan.png?downloads=true&stars=true)](https://nodei.co/npm/nan/) [![NPM](https://nodei.co/npm-dl/nan.png?months=6)](https://nodei.co/npm/nan/)\n\nThanks to the crazy changes in V8 (and some in Node core), keeping native addons compiling happily across versions, particularly 0.10 to 0.11/0.12, is a minor nightmare. The goal of this project is to store all logic necessary to develop native Node.js addons without having to inspect `NODE_MODULE_VERSION` and get yourself into a macro-tangle.\n\nThis project also contains some helper utilities that make addon development a bit more pleasant.\n\n * **[Usage](#usage)**\n * **[Example](#example)**\n * **[API](#api)**\n\n<a name="usage"></a>\n## Usage\n\nSimply add **NAN** as a dependency in the *package.json* of your Node addon:\n\n```js\n"dependencies": {\n    ...\n    "nan" : "~0.4.4"\n    ...\n}\n```\n\nPull in the path to **NAN** in your *binding.gyp* so that you can use `#include "nan.h"` in your *.cpp*:\n\n```js\n"include_dirs" : [\n    "<!(node -p -e \\"require(\'path\').relative(\'.\', require(\'path\').dirname(require.resolve(\'nan\')))\\")"\n]\n```\n\nThis works like a `-I<path-to-NAN>` when compiling your addon.\n\n<a name="example"></a>\n## Example\n\nSee **[LevelDOWN](https://github.com/rvagg/node-leveldown/pull/48)** for a full example of **NAN** in use.\n\nFor a simpler example, see the **[async pi estimation example](https://github.com/rvagg/nan/tree/master/examples/async_pi_estimate)** in the examples directory for full code and an explanation of what this Monte Carlo Pi estimation example does. Below are just some parts of the full example that illustrate the use of **NAN**.\n\nCompare to the current 0.10 version of this example, found in the [node-addon-examples](https://github.com/rvagg/node-addon-examples/tree/master/9_async_work) repository and also a 0.11 version of the same found [here](https://github.com/kkoopa/node-addon-examples/tree/5c01f58fc993377a567812597e54a83af69686d7/9_async_work).\n\nNote that there is no embedded version sniffing going on here and also the async work is made much simpler, see below for details on the `NanAsyncWorker` class.\n\n```c++\n// addon.cc\n#include <node.h>\n#include "nan.h"\n// ...\n\nusing namespace v8;\n\nvoid InitAll(Handle<Object> exports) {\n  exports->Set(NanSymbol("calculateSync"),\n    FunctionTemplate::New(CalculateSync)->GetFunction());\n\n  exports->Set(NanSymbol("calculateAsync"),\n    FunctionTemplate::New(CalculateAsync)->GetFunction());\n}\n\nNODE_MODULE(addon, InitAll)\n```\n\n```c++\n// sync.h\n#include <node.h>\n#include "nan.h"\n\nNAN_METHOD(CalculateSync);\n```\n\n```c++\n// sync.cc\n#include <node.h>\n#include "nan.h"\n#include "sync.h"\n// ...\n\nusing namespace v8;\n\n// Simple synchronous access to the `Estimate()` function\nNAN_METHOD(CalculateSync) {\n  NanScope();\n\n  // expect a number as the first argument\n  int points = args[0]->Uint32Value();\n  double est = Estimate(points);\n\n  NanReturnValue(Number::New(est));\n}\n```\n\n```c++\n// async.cc\n#include <node.h>\n#include "nan.h"\n#include "async.h"\n\n// ...\n\nusing namespace v8;\n\nclass PiWorker : public NanAsyncWorker {\n public:\n  PiWorker(NanCallback *callback, int points)\n    : NanAsyncWorker(callback), points(points) {}\n  ~PiWorker() {}\n\n  // Executed inside the worker-thread.\n  // It is not safe to access V8, or V8 data structures\n  // here, so everything we need for input and output\n  // should go on `this`.\n  void Execute () {\n    estimate = Estimate(points);\n  }\n\n  // Executed when the async work is complete\n  // this function will be run inside the main event loop\n  // so it is safe to use V8 again\n  void HandleOKCallback () {\n    NanScope();\n\n    Local<Value> argv[] = {\n        Local<Value>::New(Null())\n      , Number::New(estimate)\n    };\n\n    callback->Call(2, argv);\n  };\n\n private:\n  int points;\n  double estimate;\n};\n\n// Asynchronous access to the `Estimate()` function\nNAN_METHOD(CalculateAsync) {\n  NanScope();\n\n  int points = args[0]->Uint32Value();\n  NanCallback *callback = new NanCallback(args[1].As<Function>());\n\n  NanAsyncQueueWorker(new PiWorker(callback, points));\n  NanReturnUndefined();\n}\n```\n\n<a name="api"></a>\n## API\n\n * <a href="#api_nan_method"><b><code>NAN_METHOD</code></b></a>\n * <a href="#api_nan_getter"><b><code>NAN_GETTER</code></b></a>\n * <a href="#api_nan_setter"><b><code>NAN_SETTER</code></b></a>\n * <a href="#api_nan_property_getter"><b><code>NAN_PROPERTY_GETTER</code></b></a>\n * <a href="#api_nan_property_setter"><b><code>NAN_PROPERTY_SETTER</code></b></a>\n * <a href="#api_nan_property_enumerator"><b><code>NAN_PROPERTY_ENUMERATOR</code></b></a>\n * <a href="#api_nan_property_deleter"><b><code>NAN_PROPERTY_DELETER</code></b></a>\n * <a href="#api_nan_property_query"><b><code>NAN_PROPERTY_QUERY</code></b></a>\n * <a href="#api_nan_weak_callback"><b><code>NAN_WEAK_CALLBACK</code></b></a>\n * <a href="#api_nan_deprecated"><b><code>NAN_DEPRECATED</code></b></a>\n * <a href="#api_nan_inline"><b><code>NAN_INLINE</code></b></a> \n * <a href="#api_nan_return_value"><b><code>NanReturnValue</code></b></a>\n * <a href="#api_nan_return_undefined"><b><code>NanReturnUndefined</code></b></a>\n * <a href="#api_nan_return_null"><b><code>NanReturnNull</code></b></a>\n * <a href="#api_nan_return_empty_string"><b><code>NanReturnEmptyString</code></b></a>\n * <a href="#api_nan_scope"><b><code>NanScope</code></b></a>\n * <a href="#api_nan_locker"><b><code>NanLocker</code></b></a>\n * <a href="#api_nan_unlocker"><b><code>NanUnlocker</code></b></a>\n * <a href="#api_nan_get_internal_field_pointer"><b><code>NanGetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_set_internal_field_pointer"><b><code>NanSetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_object_wrap_handle"><b><code>NanObjectWrapHandle</code></b></a>\n * <a href="#api_nan_make_weak"><b><code>NanMakeWeak</code></b></a>\n * <a href="#api_nan_symbol"><b><code>NanSymbol</code></b></a>\n * <a href="#api_nan_get_pointer_safe"><b><code>NanGetPointerSafe</code></b></a>\n * <a href="#api_nan_set_pointer_safe"><b><code>NanSetPointerSafe</code></b></a>\n * <a href="#api_nan_from_v8_string"><b><code>NanFromV8String</code></b></a>\n * <a href="#api_nan_boolean_option_value"><b><code>NanBooleanOptionValue</code></b></a>\n * <a href="#api_nan_uint32_option_value"><b><code>NanUInt32OptionValue</code></b></a>\n * <a href="#api_nan_error"><b><code>NanError</code></b>, <b><code>NanTypeError</code></b>, <b><code>NanRangeError</code></b></a>\n * <a href="#api_nan_throw_error"><b><code>NanThrowError</code></b>, <b><code>NanThrowTypeError</code></b>, <b><code>NanThrowRangeError</code></b>, <b><code>NanThrowError(Handle<Value>)</code></b>, <b><code>NanThrowError(Handle<Value>, int)</code></b></a>\n * <a href="#api_nan_new_buffer_handle"><b><code>NanNewBufferHandle(char *, size_t, FreeCallback, void *)</code></b>, <b><code>NanNewBufferHandle(char *, uint32_t)</code></b>, <b><code>NanNewBufferHandle(uint32_t)</code></b></a>\n * <a href="#api_nan_buffer_use"><b><code>NanBufferUse(char *, uint32_t)</code></b></a>\n * <a href="#api_nan_new_context_handle"><b><code>NanNewContextHandle</code></b></a>\n * <a href="#api_nan_has_instance"><b><code>NanHasInstance</code></b></a>\n * <a href="#api_nan_persistent_to_local"><b><code>NanPersistentToLocal</code></b></a>\n * <a href="#api_nan_dispose"><b><code>NanDispose</code></b></a>\n * <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a>\n * <a href="#api_nan_init_persistent"><b><code>NanInitPersistent</code></b></a>\n * <a href="#api_nan_callback"><b><code>NanCallback</code></b></a>\n * <a href="#api_nan_async_worker"><b><code>NanAsyncWorker</code></b></a>\n * <a href="#api_nan_async_queue_worker"><b><code>NanAsyncQueueWorker</code></b></a>\n\n<a name="api_nan_method"></a>\n### NAN_METHOD(methodname)\n\nUse `NAN_METHOD` to define your V8 accessible methods:\n\n```c++\n// .h:\nclass Foo : public node::ObjectWrap {\n  ...\n\n  static NAN_METHOD(Bar);\n  static NAN_METHOD(Baz);\n}\n\n\n// .cc:\nNAN_METHOD(Foo::Bar) {\n  ...\n}\n\nNAN_METHOD(Foo::Baz) {\n  ...\n}\n```\n\nThe reason for this macro is because of the method signature change in 0.11:\n\n```c++\n// 0.10 and below:\nHandle<Value> name(const Arguments& args)\n\n// 0.11 and above\nvoid name(const FunctionCallbackInfo<Value>& args)\n```\n\nThe introduction of `FunctionCallbackInfo` brings additional complications:\n\n<a name="api_nan_getter"></a>\n### NAN_GETTER(methodname)\n\nUse `NAN_GETTER` to declare your V8 accessible getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act like the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_GETTER`.\n\n<a name="api_nan_setter"></a>\n### NAN_SETTER(methodname)\n\nUse `NAN_SETTER` to declare your V8 accessible setters. Same as `NAN_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_SETTER`.\n\n<a name="api_nan_property_getter"></a>\n### NAN_PROPERTY_GETTER(cbname)\nUse `NAN_PROPERTY_GETTER` to declare your V8 accessible property getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act similar to the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_GETTER`.\n\n<a name="api_nan_property_setter"></a>\n### NAN_PROPERTY_SETTER(cbname)\nUse `NAN_PROPERTY_SETTER` to declare your V8 accessible property setters. Same as `NAN_PROPERTY_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_SETTER`.\n\n<a name="api_nan_property_enumerator"></a>\n### NAN_PROPERTY_ENUMERATOR(cbname)\nUse `NAN_PROPERTY_ENUMERATOR` to declare your V8 accessible property enumerators. You get an appropriately typed `args` object like the `args` argument to a `NAN_PROPERTY_GETTER` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_ENUMERATOR`.\n\n<a name="api_nan_property_deleter"></a>\n### NAN_PROPERTY_DELETER(cbname)\nUse `NAN_PROPERTY_DELETER` to declare your V8 accessible property deleters. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_DELETER`.\n\n<a name="api_nan_property_query"></a>\n### NAN_PROPERTY_QUERY(cbname)\nUse `NAN_PROPERTY_QUERY` to declare your V8 accessible property queries. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_QUERY`.\n\n<a name="api_nan_weak_callback"></a>\n### NAN_WEAK_CALLBACK(type, cbname)\n\nUse `NAN_WEAK_CALLBACK` to declare your V8 WeakReference callbacks. There is an object argument accessible through `NAN_WEAK_CALLBACK_OBJECT`. The `type` argument gives the type of the `data` argument, accessible through `NAN_WEAK_CALLBACK_DATA(type)`.\n\n```c++\nstatic NAN_WEAK_CALLBACK(BufferReference*, WeakCheck) {\n  if (NAN_WEAK_CALLBACK_DATA(BufferReference*)->noLongerNeeded_) {\n    delete NAN_WEAK_CALLBACK_DATA(BufferReference*);\n  } else {\n    // Still in use, revive, prevent GC\n    NanMakeWeak(NAN_WEAK_CALLBACK_OBJECT, NAN_WEAK_CALLBACK_DATA(BufferReference*), &WeakCheck);\n  }\n}\n```\n\n<a name="api_nan_deprecated"></a>\n### NAN_DEPRECATED(declarator)\nDeclares a function as deprecated. Identical to `V8_DEPRECATED`.\n\n```c++\nstatic NAN_DEPRECATED(NAN_METHOD(foo)) {\n  ...\n}\n```\n\n<a name="api_nan_inline"></a>\n### NAN_INLINE(declarator)\nInlines a function. Identical to `V8_INLINE`.\n\n```c++\nstatic NAN_INLINE(int foo(int bar)) {\n  ...\n}\n```\n\n<a name="api_nan_return_value"></a>\n### NanReturnValue(Handle&lt;Value&gt;)\n\nUse `NanReturnValue` when you want to return a value from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  ...\n\n  NanReturnValue(String::New("FooBar!"));\n}\n```\n\nNo `return` statement required.\n\n<a name="api_nan_return_undefined"></a>\n### NanReturnUndefined()\n\nUse `NanReturnUndefined` when you don\'t want to return anything from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnUndefined();\n}\n```\n\n<a name="api_nan_return_null"></a>\n### NanReturnNull()\n\nUse `NanReturnNull` when you want to return `Null` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnNull();\n}\n```\n\n<a name="api_nan_return_empty_string"></a>\n### NanReturnEmptyString()\n\nUse `NanReturnEmptyString` when you want to return an empty `String` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnEmptyString();\n}\n```\n\n<a name="api_nan_scope"></a>\n### NanScope()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanScope()` necessary, use it in place of `HandleScope scope`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanScope();\n\n  NanReturnValue(String::New("FooBar!"));\n}\n```\n\n<a name="api_nan_locker"></a>\n### NanLocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanLocker()` necessary, use it in place of `Locker locker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_unlocker"></a>\n### NanUnlocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanUnlocker()` necessary, use it in place of `Unlocker unlocker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_get_internal_field_pointer"></a>\n### void * NanGetInternalFieldPointer(Handle&lt;Object&gt;, int)\n\nGets a pointer to the internal field with at `index` from a V8 `Object` handle.\n\n```c++\nLocal<Object> obj;\n...\nNanGetInternalFieldPointer(obj, 0);\n```\n<a name="api_nan_set_internal_field_pointer"></a>\n### void NanSetInternalFieldPointer(Handle&lt;Object&gt;, int, void *)\n\nSets the value of the internal field at `index` on a V8 `Object` handle.\n\n```c++\nstatic Persistent<Function> dataWrapperCtor;\n...\nLocal<Object> wrapper = NanPersistentToLocal(dataWrapperCtor)->NewInstance();\nNanSetInternalFieldPointer(wrapper, 0, this);\n```\n\n<a name="api_nan_object_wrap_handle"></a>\n### Local&lt;Object&gt; NanObjectWrapHandle(Object)\n\nWhen you want to fetch the V8 object handle from a native object you\'ve wrapped with Node\'s `ObjectWrap`, you should use `NanObjectWrapHandle`:\n\n```c++\nNanObjectWrapHandle(iterator)->Get(String::NewSymbol("end"))\n```\n\n<a name="api_nan_make_weak"></a>\n### NanMakeWeak(Persistent&lt;T&gt;, parameter, callback)\n\nMake a persistent reference weak.\n\n<a name="api_nan_symbol"></a>\n### String NanSymbol(char *)\n\nThis isn\'t strictly about compatibility, it\'s just an easier way to create string symbol objects (i.e. `String::NewSymbol(x)`), for getting and setting object properties, or names of objects.\n\n```c++\nbool foo = false;\nif (obj->Has(NanSymbol("foo")))\n  foo = optionsObj->Get(NanSymbol("foo"))->BooleanValue()\n```\n\n<a name="api_nan_get_pointer_safe"></a>\n### Type NanGetPointerSafe(Type *[, Type])\n\nA helper for getting values from optional pointers. If the pointer is `NULL`, the function returns the optional default value, which defaults to `0`.  Otherwise, the function returns the value the pointer points to.\n\n```c++\nchar *plugh(uint32_t *optional) {\n  char res[] = "xyzzy";\n  uint32_t param = NanGetPointerSafe<uint32_t>(optional, 0x1337);\n  switch (param) {\n    ...\n  }\n  NanSetPointerSafe<uint32_t>(optional, 0xDEADBEEF);\n}  \n```\n\n<a name="api_nan_set_pointer_safe"></a>\n### bool NanSetPointerSafe(Type *, Type)\n\nA helper for setting optional argument pointers. If the pointer is `NULL`, the function simply return `false`.  Otherwise, the value is assigned to the variable the pointer points to.\n\n```c++\nconst char *plugh(size_t *outputsize) {\n  char res[] = "xyzzy";\n  if !(NanSetPointerSafe<size_t>(outputsize, strlen(res) + 1)) {\n    ...\n  }\n\n  ...\n}\n```\n\n<a name="api_nan_from_v8_string"></a>\n### char* NanFromV8String(Handle&lt;Value&gt;[, enum Nan::Encoding, size_t *, char *, size_t, int])\n\nWhen you want to convert a V8 `String` to a `char*` use `NanFromV8String`. It is possible to define an encoding that defaults to `Nan::UTF8` as well as a pointer to a variable that will be assigned the number of bytes in the returned string. It is also possible to supply a buffer and its length to the function in order not to have a new buffer allocated. The final argument allows optionally setting `String::WriteOptions`, which default to `String::HINT_MANY_WRITES_EXPECTED | String::NO_NULL_TERMINATION`.\nJust remember that you\'ll end up with an object that you\'ll need to `delete[]` at some point unless you supply your own buffer:\n\n```c++\nsize_t count;\nchar* name = NanFromV8String(args[0]);\nchar* decoded = NanFromV8String(args[1], Nan::BASE64, &count, NULL, 0, String::HINT_MANY_WRITES_EXPECTED);\nchar param_copy[count];\nmemcpy(param_copy, decoded, count);\ndelete[] decoded;\n```\n\n<a name="api_nan_boolean_option_value"></a>\n### bool NanBooleanOptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;[, bool])\n\nWhen you have an "options" object that you need to fetch properties from, boolean options can be fetched with this pair. They check first if the object exists (`IsEmpty`), then if the object has the given property (`Has`) then they get and convert/coerce the property to a `bool`.\n\nThe optional last parameter is the *default* value, which is `false` if left off:\n\n```c++\n// `foo` is false unless the user supplies a truthy value for it\nbool foo = NanBooleanOptionValue(optionsObj, NanSymbol("foo"));\n// `bar` is true unless the user supplies a falsy value for it\nbool bar = NanBooleanOptionValueDefTrue(optionsObj, NanSymbol("bar"), true);\n```\n\n<a name="api_nan_uint32_option_value"></a>\n### uint32_t NanUInt32OptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;, uint32_t)\n\nSimilar to `NanBooleanOptionValue`, use `NanUInt32OptionValue` to fetch an integer option from your options object. Can be any kind of JavaScript `Number` and it will be coerced to an unsigned 32-bit integer.\n\nRequires all 3 arguments as a default is not optional:\n\n```c++\nuint32_t count = NanUInt32OptionValue(optionsObj, NanSymbol("count"), 1024);\n```\n\n<a name="api_nan_error"></a>\n### NanError(message), NanTypeError(message), NanRangeError(message)\n\nFor making `Error`, `TypeError` and `RangeError` objects.\n\n```c++\nLocal<Value> res = NanError("you must supply a callback argument");\n```\n\n<a name="api_nan_throw_error"></a>\n### NanThrowError(message), NanThrowTypeError(message), NanThrowRangeError(message), NanThrowError(Local&lt;Value&gt;), NanThrowError(Local&lt;Value&gt;, int)\n\nFor throwing `Error`, `TypeError` and `RangeError` objects. You should `return` this call:\n\n```c++\nreturn NanThrowError("you must supply a callback argument");\n```\n\nCan also handle any custom object you may want to throw. If used with the error code argument, it will add the supplied error code to the error object as a property called `code`.\n\n<a name="api_nan_new_buffer_handle"></a>\n### Local&lt;Object&gt; NanNewBufferHandle(char *, uint32_t), Local&lt;Object&gt; NanNewBufferHandle(uint32_t)\n\nThe `Buffer` API has changed a little in Node 0.11, this helper provides consistent access to `Buffer` creation:\n\n```c++\nNanNewBufferHandle((char*)value.data(), value.size());\n```\n\nCan also be used to initialize a `Buffer` with just a `size` argument.\n\nCan also be supplied with a `NAN_WEAK_CALLBACK` and a hint for the garbage collector, when dealing with weak references.\n\n<a name="api_nan_buffer_use"></a>\n### Local&lt;Object&gt; NanBufferUse(char*, uint32_t)\n\n`Buffer::New(char*, uint32_t)` prior to 0.11 would make a copy of the data.\nWhile it was possible to get around this, it required a shim by passing a\ncallback. So the new API `Buffer::Use(char*, uint32_t)` was introduced to remove\nneeding to use this shim.\n\n`NanBufferUse` uses the `char*` passed as the backing data, and will free the\nmemory automatically when the weak callback is called. Keep this in mind, as\ncareless use can lead to "double free or corruption" and other cryptic failures.\n\n<a name="api_nan_has_instance"></a>\n### bool NanHasInstance(Persistent&lt;FunctionTemplate&gt;&, Handle&lt;Value&gt;)\n\nCan be used to check the type of an object to determine it is of a particular class you have already defined and have a `Persistent<FunctionTemplate>` handle for.\n\n<a name="api_nan_persistent_to_local"></a>\n### Local&lt;Type&gt; NanPersistentToLocal(Persistent&lt;Type&gt;&)\n\nAside from `FunctionCallbackInfo`, the biggest and most painful change to V8 in Node 0.11 is the many restrictions now placed on `Persistent` handles. They are difficult to assign and difficult to fetch the original value out of.\n\nUse `NanPersistentToLocal` to convert a `Persistent` handle back to a `Local` handle.\n\n```c++\nLocal<Object> handle = NanPersistentToLocal(persistentHandle);\n```\n\n<a href="#api_nan_new_context_handle">\n### Local&lt;Context&gt; NanNewContextHandle([ExtensionConfiguration*, Handle&lt;ObjectTemplate&gt;, Handle&lt;Value&gt;])\nCreates a new `Local<Context>` handle.\n\n```c++\nLocal<FunctionTemplate> ftmpl = FunctionTemplate::New();\nLocal<ObjectTemplate> otmpl = ftmpl->InstanceTemplate();\nLocal<Context> ctx =  NanNewContextHandle(NULL, otmpl);\n```\n\n<a name="api_nan_dispose"></a>\n### void NanDispose(Persistent&lt;T&gt; &)\n\nUse `NanDispose` to dispose a `Persistent` handle.\n\n```c++\nNanDispose(persistentHandle);\n```\n\n<a name="api_nan_assign_persistent"></a>\n### NanAssignPersistent(type, handle, object)\n\nUse `NanAssignPersistent` to assign a non-`Persistent` handle to a `Persistent` one. You can no longer just declare a `Persistent` handle and assign directly to it later, you have to `Reset` it in Node 0.11, so this makes it easier.\n\nIn general it is now better to place anything you want to protect from V8\'s garbage collector as properties of a generic `Object` and then assign that to a `Persistent`. This works in older versions of Node also if you use `NanAssignPersistent`:\n\n```c++\nPersistent<Object> persistentHandle;\n\n...\n\nLocal<Object> obj = Object::New();\nobj->Set(NanSymbol("key"), keyHandle); // where keyHandle might be a Local<String>\nNanAssignPersistent(Object, persistentHandle, obj)\n```\n\n<a name="api_nan_init_persistent"></a>\n### NanInitPersistent(type, name, object)\n\nUser `NanInitPersistent` to declare and initialize a new `Persistent` with the supplied object. The assignment operator for `Persistent` is no longer public in Node 0.11, so this macro makes it easier to declare and initializing a new `Persistent`. See <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a> for more information.\n\n```c++\nLocal<Object> obj = Object::New();\nobj->Set(NanSymbol("key"), keyHandle); // where keyHandle might be a Local<String>\nNanInitPersistent(Object, persistentHandle, obj);\n```\n\n<a name="api_nan_callback"></a>\n### NanCallback\n\nBecause of the difficulties imposed by the changes to `Persistent` handles in V8 in Node 0.11, creating `Persistent` versions of your `Local<Function>` handles is annoyingly tricky. `NanCallback` makes it easier by taking your `Local` handle, making it persistent until the `NanCallback` is deleted and even providing a handy `Call()` method to fetch and execute the callback `Function`.\n\n```c++\nLocal<Function> callbackHandle = callback = args[0].As<Function>();\nNanCallback *callback = new NanCallback(callbackHandle);\n// pass `callback` around and it\'s safe from GC until you:\ndelete callback;\n```\n\nYou can execute the callback like so:\n\n```c++\n// no arguments:\ncallback->Call(0, NULL);\n\n// an error argument:\nLocal<Value> argv[] = {\n  Exception::Error(String::New("fail!"))\n};\ncallback->Call(1, argv);\n\n// a success argument:\nLocal<Value> argv[] = {\n  Local<Value>::New(Null()),\n  String::New("w00t!")\n};\ncallback->Call(2, argv);\n```\n\n`NanCallback` also has a `Local<Function> GetCallback()` method that you can use to fetch a local handle to the underlying callback function if you need it.\n\n<a name="api_nan_async_worker"></a>\n### NanAsyncWorker\n\n`NanAsyncWorker` is an abstract class that you can subclass to have much of the annoying async queuing and handling taken care of for you. It can even store arbitrary V8 objects for you and have them persist while the async work is in progress.\n\nSee a rough outline of the implementation:\n\n```c++\nclass NanAsyncWorker {\npublic:\n  NanAsyncWorker (NanCallback *callback);\n\n  // Clean up persistent handles and delete the *callback\n  virtual ~NanAsyncWorker ();\n\n  // Check the `char *errmsg` property and call HandleOKCallback()\n  // or HandleErrorCallback depending on whether it has been set or not\n  virtual void WorkComplete ();\n\n  // You must implement this to do some async work. If there is an\n  // error then allocate `errmsg` to to a message and the callback will\n  // be passed that string in an Error object\n  virtual void Execute ();\n\nprotected:\n  // Set this if there is an error, otherwise it\'s NULL\n  const char *errmsg;\n\n  // Save a V8 object in a Persistent handle to protect it from GC\n  void SavePersistent(const char *key, Local<Object> &obj);\n\n  // Fetch a stored V8 object (don\'t call from within `Execute()`)\n  Local<Object> GetFromPersistent(const char *key);\n\n  // Default implementation calls the callback function with no arguments.\n  // Override this to return meaningful data\n  virtual void HandleOKCallback ();\n\n  // Default implementation calls the callback function with an Error object\n  // wrapping the `errmsg` string\n  virtual void HandleErrorCallback ();\n};\n```\n\n<a name="api_nan_async_queue_worker"></a>\n### NanAsyncQueueWorker(NanAsyncWorker *)\n\n`NanAsyncQueueWorker` will run a `NanAsyncWorker` asynchronously via libuv. Both the *execute* and *after_work* steps are taken care of for you&mdash;most of the logic for this is embedded in `NanAsyncWorker`.\n\n### Contributors\n\nNAN is only possible due to the excellent work of the following contributors:\n\n<table><tbody>\n<tr><th align="left">Rod Vagg</th><td><a href="https://github.com/rvagg">GitHub/rvagg</a></td><td><a href="http://twitter.com/rvagg">Twitter/@rvagg</a></td></tr>\n<tr><th align="left">Benjamin Byholm</th><td><a href="https://github.com/kkoopa/">GitHub/kkoopa</a></td></tr>\n<tr><th align="left">Trevor Norris</th><td><a href="https://github.com/trevnorris">GitHub/trevnorris</a></td><td><a href="http://twitter.com/trevnorris">Twitter/@trevnorris</a></td></tr>\n</tbody></table>\n\nLicence &amp; copyright\n-----------------------\n\nCopyright (c) 2013 NAN contributors (listed above).\n\nNative Abstractions for Node.js is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.\n',
+862 silly resolved     readmeFilename: 'README.md',
+862 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+862 silly resolved     homepage: 'https://github.com/rvagg/nan',
+862 silly resolved     _id: 'nan@0.4.4',
+862 silly resolved     dist: { shasum: '57654b1cd46b7342ca0f01e104d7f6adaf8a38c3' },
+862 silly resolved     _from: 'nan@~0.4.1',
+862 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-0.4.4.tgz' } ]
+863 info install nan@0.4.4 into /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas
+864 info installOne nan@0.4.4
+865 info /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan unbuild
+866 verbose tar unpack /Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+867 silly lockFile 7fa73e63--modules-canvas-node-modules-nan tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan
+868 verbose lock tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan /Users/mcherkassky/.npm/7fa73e63--modules-canvas-node-modules-nan.lock
+869 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+870 verbose lock tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz /Users/mcherkassky/.npm/db0d5ed0-kassky-npm-nan-0-4-4-package-tgz.lock
+871 silly gunzTarPerm modes [ '755', '644' ]
+872 silly gunzTarPerm extractEntry package.json
+873 silly gunzTarPerm extractEntry README.md
+874 silly gunzTarPerm extractEntry LICENSE
+875 silly gunzTarPerm extractEntry .index.js
+876 silly gunzTarPerm extractEntry nan.h
+877 silly lockFile 7fa73e63--modules-canvas-node-modules-nan tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan
+878 silly lockFile 7fa73e63--modules-canvas-node-modules-nan tar:///Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan
+879 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+880 silly lockFile db0d5ed0-kassky-npm-nan-0-4-4-package-tgz tar:///Users/mcherkassky/.npm/nan/0.4.4/package.tgz
+881 info preinstall nan@0.4.4
+882 verbose readDependencies using package.json deps
+883 verbose readDependencies using package.json deps
+884 silly resolved []
+885 verbose about to build /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan
+886 info build /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules/nan
+887 verbose linkStuff [ false,
+887 verbose linkStuff   false,
+887 verbose linkStuff   false,
+887 verbose linkStuff   '/Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas/node_modules' ]
+888 info linkStuff nan@0.4.4
+889 verbose linkBins nan@0.4.4
+890 verbose linkMans nan@0.4.4
+891 verbose rebuildBundles nan@0.4.4
+892 info install nan@0.4.4
+893 info postinstall nan@0.4.4
+894 verbose about to build /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas
+895 info build /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas
+896 verbose linkStuff [ false,
+896 verbose linkStuff   false,
+896 verbose linkStuff   false,
+896 verbose linkStuff   '/Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules' ]
+897 info linkStuff canvas@1.1.2
+898 verbose linkBins canvas@1.1.2
+899 verbose linkMans canvas@1.1.2
+900 verbose rebuildBundles canvas@1.1.2
+901 verbose rebuildBundles [ 'nan' ]
+902 info install canvas@1.1.2
+903 verbose unsafe-perm in lifecycle true
+904 info postinstall fibers@1.0.1
+905 info canvas@1.1.2 Failed to exec install script
+906 info /Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules/canvas unbuild
+907 info preuninstall canvas@1.1.2
+908 info uninstall canvas@1.1.2
+909 verbose false,/Users/mcherkassky/Desktop/chirp/node_modules,/Users/mcherkassky/Desktop/chirp/node_modules/caman/node_modules unbuild canvas@1.1.2
+910 info postuninstall canvas@1.1.2
+911 verbose about to build /Users/mcherkassky/Desktop/chirp/node_modules/caman
+912 info /Users/mcherkassky/Desktop/chirp/node_modules/caman unbuild
+913 info preuninstall caman@4.1.2
+914 info uninstall caman@4.1.2
+915 verbose true,/Users/mcherkassky/Desktop/chirp/node_modules,/Users/mcherkassky/Desktop/chirp/node_modules unbuild caman@4.1.2
+916 info postuninstall caman@4.1.2
+917 error canvas@1.1.2 install: `node-gyp rebuild`
+917 error Exit status 1
+918 error Failed at the canvas@1.1.2 install script.
+918 error This is most likely a problem with the canvas package,
+918 error not with npm itself.
+918 error Tell the author that this fails on your system:
+918 error     node-gyp rebuild
+918 error You can get their info via:
+918 error     npm owner ls canvas
+918 error There is likely additional logging output above.
+919 error System Darwin 12.5.0
+920 error command "node" "/usr/local/bin/npm" "install" "caman"
+921 error cwd /Users/mcherkassky/Desktop/chirp
+922 error node -v v0.10.22
+923 error npm -v 1.3.14
+924 error code ELIFECYCLE
+925 verbose exit [ 1, true ]

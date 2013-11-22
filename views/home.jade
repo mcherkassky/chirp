@@ -1,0 +1,49 @@
+extends layout
+
+block head
+	link(rel='stylesheet', href='/stylesheets/nav.css')
+
+block script
+	script(type='text/javascript', src="components/caman/dist/caman.full.min.js")
+block content
+	.container(style="margin-top:100px")
+		.row
+			.col-md-3
+				#sidebar
+					.bs-sidebar.hidden-print.affix(style="width:200px")
+						div(style="font-size:12px; font-weight:300; color:#b8c3c9")
+							| BROWSE
+						ul.nav.bs-sidenav
+							li.active
+								a(href="#")
+									| Heavy Rotation
+							li
+								a(href="#")
+									| Recent Activity
+							li		
+								a(href="#")
+									| Top Charts
+							li
+								a(href="#")
+									| New Releases
+							li
+								a(href="#")
+									| Stations
+
+			.col-md-9
+				div(style="font-size:17px")
+					| Heavy Rotation
+
+				ul.thumbnails(style="list-style:none;padding:0")
+					li
+						.thumbnail.clearfix(style="height:165px; overflow:hidden; padding:0;")
+							img(src='http://img.youtube.com/vi/edPM-McUkn4/0.jpg', style="width:100%;position:relative;top:-150px")
+
+					li(style="margin-top:14px")
+						.thumbnail.clearfix(style="height:165px; overflow:hidden; padding:0")
+							img(src='http://img.youtube.com/vi/qjDaW3VXjnw/0.jpg', style="width:100%;position:relative;top:-150px")
+
+					li(style="margin-top:14px")
+						.thumbnail.clearfix(style="height:165px; overflow:hidden; padding:0")
+							img(src='http://img.youtube.com/vi/Ob7vObnFUJc/0.jpg', style="width:100%;position:relative;top:-150px")
+

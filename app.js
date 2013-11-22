@@ -35,7 +35,7 @@ var server = http.createServer(app);
 
 var watchSymbols = ['adidas', 'nike', 'audi', 'mercedes', 'coca cola', 'mcdonalds',
                     'burger king', 'pepsi', 'starbucks', 'disney', 'walmart', 'amazon',
-                    'chipotle', 'bmw', 'samsung', 'gucci', 'ikea', 'lululemon', 'snapchat']
+                    'chipotle', 'bmw', 'samsung', 'gucci', 'ikea', 'lululemon']
                      // 'real madrid', 'amazon',  'sony', 'facebook', 'google', 'snapchat', 'twitter']
 
 //This structure will keep the total number of tweets received and a map of all the symbols and how many tweets received of that symbol
@@ -68,8 +68,12 @@ if ('development' == app.get('env')) {
 
 //Our only route! Render it with the current watchList
 app.get('/', function(req, res) {
-	res.render('index', { data: watchList });
+	res.render('index');
 });
+
+app.get('/home', function(req, res){
+  res.render('home')
+})
 
 //Start a Socket.IO listen
 var sockets = io.listen(server);
@@ -81,10 +85,6 @@ sockets.configure(function() {
   sockets.set('polling duration', 10);
 });
 
-//If the client just connected, give them fresh data!
-// sockets.sockets.on('connection', function(socket) { 
-//     socket.emit('data', watchList);
-// });
 
 //Instantiate the twitter component
 //You will need to get your own key. Don't worry, it's free. But I cannot provide you one
